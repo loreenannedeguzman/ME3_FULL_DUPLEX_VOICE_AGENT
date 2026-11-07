@@ -56,6 +56,6 @@
     "source-bindings.json": "29f757fef0a52825f6668eb76b8f8c02966eb37d6137dcd9b67bffbc594e97e5"
   },
   "private_contract_and_grant_omitted": true,
-  "results": "PENDING_ROOT_ACTUAL_REVIEW",
+  "results": "PARTIAL_STAGE_RESULTS_REPORTED_IN_BENCHMARK_RESULTS_MD",
   "original_manifest_sha256": "378e96f2cf44a962047fb4633b7ca4b1b5c8b982cacdbf76fcf0a0c6c9a4a24b"
 }

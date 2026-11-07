@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_PUBLICATION_COPY_STATIC_REVIEW_ONLY",
+  "status": "PUBLISHED_SOURCE_STATIC_REVIEW_NOT_EXECUTION_AUTHORITY",
   "source_manifest_sha256": "378e96f2cf44a962047fb4633b7ca4b1b5c8b982cacdbf76fcf0a0c6c9a4a24b",
   "copied": [
     {

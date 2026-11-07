@@ -1,5 +1,5 @@
 {
-  "status": "SANITIZED_PUBLICATION_REVIEW_COPY_NOT_EXECUTED",
+  "status": "SANITIZED_PUBLISHED_SOURCE_NOT_EXECUTED_AS_REPLACEMENT",
   "measured_source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
   "archive_sha256": "9e41057d450bcedc39b89d9b1e19f88803de441182f2210babae2c2cd66acb23",
   "changes": [
@@ -277,7 +277,13 @@
   "guards_not_bypassed": true,
   "operator_authority_not_generated": true,
   "publication_copy_runtime_tested": false,
-  "git_initialized": false,
-  "committed": false,
-  "pushed": false
+  "git_initialized": true,
+  "committed": true,
+  "pushed": true,
+  "initial_publication_commit": "0594985ac0c64ca797377f89ab889610b88753a1",
+  "documentation_publication_update": {
+    "reason": "Removed obsolete submission-workflow notices after approved publication.",
+    "runtime_changes": 0,
+    "benchmark_results_changed": false
+  }
 }

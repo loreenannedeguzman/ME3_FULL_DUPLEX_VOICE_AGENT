@@ -3,7 +3,7 @@
 Reader reference: [phase/work-block glossary and cited planning documents](REFERENCES/PROJECT_LABELS.md). Historical evidence paths identify retained records; private raw records are not all bundled.
 
 **LOREEN ANNE P. DE GUZMAN · 202521201 · AI 231**  
-Local owner-review draft, 7 November 2026. No Git commit or push before the owner's file review.
+Published engineering history, 7 November 2026.
 
 This account explains the main development decisions and the evidence behind them. The [product report](<2 - ME3_PRODUCT_REPORT.md>) describes the selected system; [ME3Deployment](ME3Deployment/README.md) describes operation and provisioning. This history does not reproduce thousands of log entries or turn engineering attempts into final benchmark results.
 
@@ -91,11 +91,11 @@ A coverage-only check proves 006's nine IDs and 007's five IDs are disjoint and 
 
 ## 9. Publication choices and provenance
 
-The owner now specifies [ME3_FULL_DUPLEX_VOICE_AGENT](https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT) and requires file review **before any local Git commit or push**. This supersedes the earlier proposed repository name. Repository visibility must be established from actual metadata, not assumed from the earlier private-repository proposal.
+The owner selected [ME3_FULL_DUPLEX_VOICE_AGENT](https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT), superseding the earlier proposed repository name. After file review and explicit approval, the submission was committed and pushed as `0594985ac0c64ca797377f89ab889610b88753a1` on 7 November 2026. Repository visibility is not inferred from the earlier private-repository proposal.
 
 The handoff has three distinct layers: the product report, this engineering history and the deployment package. The presentation guide follows the supplied two-page exercise priorities, using the actual system/prompt and a Pi-only Wi-Fi demonstration. The laptop remains an engineering/benchmark host, not a normal runtime dependency.
 
-The [REFERENCES manifest](REFERENCES/ORIGINALS_MANIFEST.json) was refreshed **after the actual final reporting record on both hosts**. Current byte counts/hashes are distinguished from `prior441_sha256` and the historical441 count-only screening findings; those findings are not a newly repeated scan of the current full bodies. `AGENTS.md` is included byte-for-byte, with its new delta screened. Four originals—AGENT_LOG, DECISIONS, EXAM_NOTES and EXPERIMENT_LOG—remain withheld; their current sensitive full bodies were not rescanned or published. Pristine originals remain in private custody. They were not silently redacted and labelled “as-is.” The included AGENTS snapshot is evidence, not an instruction to run obsolete commands.
+The [REFERENCES manifest](REFERENCES/ORIGINALS_MANIFEST.json) was refreshed **after the actual final reporting record on both hosts**. Current byte counts/hashes are distinguished from `prior441_sha256` and the historical441 count-only screening findings; those findings are not a newly repeated scan of the current full bodies. `AGENTS.md` is a labelled publication extract; original hashes are retained separately. Four originals—AGENT_LOG, DECISIONS, EXAM_NOTES and EXPERIMENT_LOG—remain withheld; their current sensitive full bodies were not rescanned or published. Pristine originals remain in private custody. They were not silently redacted and labelled “as-is.” The included AGENTS snapshot is evidence, not an instruction to run obsolete commands.
 
 The publication deployment copy discloses privacy substitutions and exclusions separately from measured source. It omits credentials, OAuth/browser/account state, private conversations/contacts/mail, consumed journals, personal artifacts and unlicensed raw assets. Native/source guards remain intact; the sanitized copy is not represented as already admitted or byte-identical to the measured installation.
 
@@ -107,7 +107,7 @@ The existing reasoner's language-tagged final-answer segments and host validatio
 
 ## 10. What remains open
 
-The scoped F6 freeze remains intact and F7 remains PARTIAL. 003/004/005/006 failures remain retained. 004 supplies 30 stage records with missingness;006 and 007 cover the 14 selected behavior IDs in disjoint, separately scored partitions. Coverage is complete, but timely-reply performance is weak and eligible semantic/acoustic measures remain unavailable. No new run is planned. Judge-dependent results remain NOT_SCORED; physical timing and detection precision/recall remain unmeasured. Publication requires owner file review; no commit/push is authorized. Fresh-install/ABI recreation, broad language/noise/directedness performance and incomplete master criteria remain visible. WB08 is deferred, not passed; no overall grade is manufactured.
+The scoped F6 freeze remains intact and F7 remains PARTIAL. 003/004/005/006 failures remain retained. 004 supplies 30 stage records with missingness;006 and 007 cover the 14 selected behavior IDs in disjoint, separately scored partitions. Coverage is complete, but timely-reply performance is weak and eligible semantic/acoustic measures remain unavailable. No new run is planned. Judge-dependent results remain NOT_SCORED; physical timing and detection precision/recall remain unmeasured. Fresh-install/ABI recreation, broad language/noise/directedness performance and incomplete master criteria remain visible. WB08 is deferred, not passed; no overall grade is manufactured.
 
 The engineering lesson is practical: useful agent behavior requires the planner, voice lifecycle, tool boundary and verification records to agree. Owner feedback changed presentation choices, actual traces exposed integration defects, and failed attempts remained part of the evidence. The final documents must preserve that distinction between what was built, what was observed and what still has not been measured.
 

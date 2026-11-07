@@ -85,5 +85,5 @@
   "dataset_manifest_sha256": "c4c11fce06028421aaea1530e434f4b602d0cda912eca2f35636fad1a564e803",
   "original_expiry_and_counter_baseline_omitted": true,
   "active_grant_or_binding": false,
-  "results": "PENDING_ROOT_ACTUAL_REVIEW"
+  "results": "PARTIAL_RESULTS_REPORTED_IN_BENCHMARK_RESULTS_MD"
 }

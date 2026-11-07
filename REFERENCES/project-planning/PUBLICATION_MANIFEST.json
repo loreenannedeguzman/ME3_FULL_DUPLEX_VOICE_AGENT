@@ -1,5 +1,5 @@
 {
-  "purpose": "Explicit reviewer extracts and byte-exact eligible planning snapshots; originals unchanged",
+  "purpose": "Explicit publication extracts and byte-exact eligible planning snapshots; private originals unchanged",
   "originals": {
     "PROJECT_BOARD.json": {
       "bytes": 1743572,
@@ -50,9 +50,11 @@
     },
     {
       "path": "docs/onit_execution_plan.md",
-      "bytes": 30205,
-      "sha256": "d147be76642b216aec5cec32cb864ceb94c9aa6dcc2c3c9829615a3507f6feb9",
-      "kind": "byte-exact original snapshot"
+      "bytes": 29605,
+      "sha256": "78c2dbe7c3e23e39db8ef26f8f2dfb98daabe84250a97ec5de9b5c577af2737d",
+      "kind": "explicit publication extract",
+      "previous_publication_sha256": "d147be76642b216aec5cec32cb864ceb94c9aa6dcc2c3c9829615a3507f6feb9",
+      "publication_edit": "Obsolete submission-workflow instructions removed; engineering findings retained; private original unchanged."
     },
     {
       "path": "docs/measurement_protocol.md",

@@ -14,5 +14,5 @@
   "unstarted_slots": 13,
   "judge_calls": 0,
   "metrics_pass_claimed": false,
-  "successor005": "PENDING_ROOT_REVIEW_NOT_COMBINED"
+  "successor005": "STARTUP_FAILED_NO_TRIALS_OR_SCORES_SEPARATE_FROM_004"
 }

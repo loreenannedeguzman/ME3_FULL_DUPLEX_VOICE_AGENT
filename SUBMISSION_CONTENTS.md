@@ -1,6 +1,6 @@
-# GitHub submission contents — owner-arranged review
+# GitHub submission contents
 
-**Owner filenames and folder layout are preserved. No commit or push until approved.**
+**Published submission with the owner-approved filenames and folder layout.**
 
 ## Root documents in reading order
 
@@ -26,4 +26,4 @@
 
 The engineering history is now numbered document 5 at repository root. The editable Mermaid source is in REFERENCES. Presentation scripts, the separate architecture-guide Markdown file and the standalone demo quick start are not included. Source/operational scripts inside the implementation folders remain necessary and included.
 
-The separate local study folder remains outside this submission. Credentials, account state, private conversations/contacts/media, raw recordings, environments, model weights and four sensitive original log documents remain excluded. Eligible originals remain byte-exact and extracts are labelled. No new runtime behavior, benchmark result, permission, commit or push follows from the layout changes. F7 remains PARTIAL.
+The separate local study folder remains outside this submission. Credentials, account state, private conversations/contacts/media, raw recordings, environments, model weights and four sensitive original log documents remain excluded. Unedited historical snapshots remain byte-exact; publication-edited extracts are labelled and retain original hashes. Documentation publication does not change runtime behavior, benchmark results or execution permissions. F7 remains PARTIAL.

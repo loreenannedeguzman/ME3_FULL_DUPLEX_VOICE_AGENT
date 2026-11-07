@@ -1,8 +1,7 @@
 {
-  "status": "GITHUB_FOLDER_REVISED_READY_FOR_OWNER_REVIEW_NO_COMMITS_OR_PUSHES",
+  "status": "PUBLISHED_SUBMISSION_INVENTORY",
   "repository": "https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT",
   "inventory_paths_relative_to": "repository root",
-  "owner_review_required_before_commit": true,
   "file_count": 738,
   "inventory_excludes_this_manifest": true,
   "files": [
@@ -18,8 +17,8 @@
     },
     {
       "path": "2 - ME3_PRODUCT_REPORT.md",
-      "bytes": 40954,
-      "sha256": "ab6561646f31f6f54e02ac75989009e85b9fd4f9caad0a073523454dab23ef24"
+      "bytes": 41051,
+      "sha256": "32d054f9a37f011e41066ecfd9e854e76bbf3106dfb3552080e9052061821b55"
     },
     {
       "path": "3 - ME3_ARCHITECTURE.pdf",
@@ -33,8 +32,8 @@
     },
     {
       "path": "5 - ME3_ENGINEERING_HISTORY.md",
-      "bytes": 26051,
-      "sha256": "feb89ea1fba8dc1c46a4d3c26cf316ad010c34f3be8e1f4b2b7999e986848e00"
+      "bytes": 25987,
+      "sha256": "a7a44aded884d862de55d863f6a7d8eccd4a96153fa0b963a1746134a842d646"
     },
     {
       "path": "Benchmarks/adapter004/baseline/me3_completion/pipeline.py",
@@ -93,8 +92,8 @@
     },
     {
       "path": "Benchmarks/adapter004/manifest.DRAFT.json",
-      "bytes": 5058,
-      "sha256": "ca9f3542307f1ecd7cba225423fd726737fd08443c41ffa05dd4016c1d716b54"
+      "bytes": 5086,
+      "sha256": "eefa21f8f329cde53d30aa6075be383d19d316cd58f871e353de5710bac7c210"
     },
     {
       "path": "Benchmarks/adapter004/measurement_host.py",
@@ -438,13 +437,13 @@
     },
     {
       "path": "Benchmarks/BENCHMARK_RESULTS.md",
-      "bytes": 28021,
-      "sha256": "0d5ed51a82a055beb1155ec4de73fc97e88c20d9a0814fe8b3ca0424042e18fe"
+      "bytes": 27915,
+      "sha256": "42958576374f69b9570d61ee9041de4a09c64154a51340935f749e6657846cfb"
     },
     {
       "path": "Benchmarks/HISTORICAL_METHOD_PROVENANCE.json",
-      "bytes": 3118,
-      "sha256": "0ed5f3f395963ca5763c51ff2c930202e28fbb6c85b78a1d0ad260bc2a673c7f"
+      "bytes": 3140,
+      "sha256": "aea383ab934eafded59dc907686ce2fd786e51632af267cb1b44e59d8eb8ff49"
     },
     {
       "path": "Benchmarks/METHOD.md",
@@ -453,13 +452,13 @@
     },
     {
       "path": "Benchmarks/PUBLICATION_COPY_MANIFEST.json",
-      "bytes": 11923,
-      "sha256": "dc89f5f373d4ae7d8a6dd25f406e48dcc70c8ed8755996f39efdf10bebec91e4"
+      "bytes": 11936,
+      "sha256": "3ef907f6e5263c6ffc87b2e7a1fc896e250e842564b5481b542193c3937e7056"
     },
     {
       "path": "Benchmarks/README.md",
-      "bytes": 3060,
-      "sha256": "0b12d554adaa7ff284c561fb941267d3c1bdfae0a2ea6a17b59dc005a0f6a3c2"
+      "bytes": 2981,
+      "sha256": "bfd7d76bdabf484c668a22cae98deddb119d8d04f679c9e0dffb28b7fb89bcf6"
     },
     {
       "path": "Benchmarks/REPRODUCING.md",
@@ -473,8 +472,8 @@
     },
     {
       "path": "Benchmarks/results004/EXPORT_MANIFEST.json",
-      "bytes": 855,
-      "sha256": "709ff4558c8aad5130a8a007157ec2dfe60cf538bf031e2564857b8dfaa044ab"
+      "bytes": 875,
+      "sha256": "33fc3c8fe0a65b2f0e7dfd561d3934b3ee9227aae3bacc7f61f43a811ce3a4f6"
     },
     {
       "path": "Benchmarks/results004/README.md",
@@ -498,8 +497,8 @@
     },
     {
       "path": "Benchmarks/results005/README.md",
-      "bytes": 1891,
-      "sha256": "cecc86137ebd9afc4f3aa10413ab4ca678aa096aa2486ef0546af88461aa1865"
+      "bytes": 1858,
+      "sha256": "31c9fe57b027435c1b8ad63cb66569d1d26b22b02d37ce9fed415ed262517711"
     },
     {
       "path": "Benchmarks/results006/analysis.json",
@@ -513,8 +512,8 @@
     },
     {
       "path": "Benchmarks/results006/README.md",
-      "bytes": 1143,
-      "sha256": "0d35cc381cdbedbceee53c070a6dec2f39eb6d1d75b9aab7fb2270e7ce22b623"
+      "bytes": 1113,
+      "sha256": "5b802b18d8cc9b99aad036157d04d3cd297f9a9496e39bf63a00dc1528a0e0bc"
     },
     {
       "path": "Benchmarks/results006/summary.md",
@@ -543,8 +542,8 @@
     },
     {
       "path": "Benchmarks/results007/README.md",
-      "bytes": 1129,
-      "sha256": "b7606a511a5f2eca8494fa82c49655320e7af5aa61e1b3a4d17206bef8eaaa3a"
+      "bytes": 1099,
+      "sha256": "11dc4b16a9c15745bcd791560956fb6140eb6cec07a8f549a9fe111c028dbc8e"
     },
     {
       "path": "Benchmarks/results007/summary.md",
@@ -708,8 +707,8 @@
     },
     {
       "path": "ME3Deployment/DEPENDENCIES_AND_LICENSES.md",
-      "bytes": 3701,
-      "sha256": "b42c7211b77ab8cfd9d4dc20fa6d4da276e90b0d37840be0004eb87905b7437e"
+      "bytes": 3665,
+      "sha256": "08930b6ab6cbd60082871c9dd184441b62a418dfca16913269b83a27a8d96187"
     },
     {
       "path": "ME3Deployment/docs/artifact_workspace.md",
@@ -2233,8 +2232,8 @@
     },
     {
       "path": "ME3Deployment/provenance/publication-delta.json",
-      "bytes": 13958,
-      "sha256": "a04b3a523cde7e622547b7ca176bc4f4456661bba5ab792670aa4857a34991bf"
+      "bytes": 14239,
+      "sha256": "e75fdbff2b7cada9fbc36a6fa7b0786a8093b200abf1026d3c7fd3af2d4a9c5d"
     },
     {
       "path": "ME3Deployment/provenance/publication-source-map.json",
@@ -2248,8 +2247,8 @@
     },
     {
       "path": "ME3Deployment/README.md",
-      "bytes": 2968,
-      "sha256": "9f0eb9e7a837b1618d6a79613fa6bcebc7f7161edf83282b66fd5d5c1da1e7e5"
+      "bytes": 2927,
+      "sha256": "2990f8f4c989d23f6cb58a3b7ac0f598be3249a832abba84c534381ccc79de07"
     },
     {
       "path": "ME3Deployment/REPRODUCIBILITY.md",
@@ -3613,13 +3612,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3568,
-      "sha256": "f1c3c5614db91f6c0a0b82d8bc0c4f49e579484f0e7135a72e812bffe43e8531"
+      "bytes": 3547,
+      "sha256": "2ddb29ddc70ca941b069020c191f3a98f57ed5981b4f0b15da9f3bfb084875b8"
     },
     {
       "path": "REFERENCES/AGENTS.md",
-      "bytes": 36619,
-      "sha256": "1d6833dc4dbb7aa79dda5ca2e78d14eba513add3813a7f01fdec3ff540ba2cde"
+      "bytes": 36297,
+      "sha256": "c4d359d3c99b4c47f45fd6b6e89c37ea16c4c7853d7c21ed8c39b13260d5048b"
     },
     {
       "path": "REFERENCES/ME3_ARCHITECTURE_DETAILED.mmd",
@@ -3638,8 +3637,8 @@
     },
     {
       "path": "REFERENCES/ORIGINALS_MANIFEST.json",
-      "bytes": 3470,
-      "sha256": "0d8a0a7c1f14405a4b6b1174036bae17e199b7dff2ee3ee102b6d06101643b9e"
+      "bytes": 3788,
+      "sha256": "c0f89a84585a5cb640aa16fdd8f8a465a8d876c0fa52f91190066aae8423bfc3"
     },
     {
       "path": "REFERENCES/project-planning/docs/agreed_benchmark_plan.md",
@@ -3653,8 +3652,8 @@
     },
     {
       "path": "REFERENCES/project-planning/docs/onit_execution_plan.md",
-      "bytes": 30205,
-      "sha256": "d147be76642b216aec5cec32cb864ceb94c9aa6dcc2c3c9829615a3507f6feb9"
+      "bytes": 29605,
+      "sha256": "78c2dbe7c3e23e39db8ef26f8f2dfb98daabe84250a97ec5de9b5c577af2737d"
     },
     {
       "path": "REFERENCES/project-planning/docs/requirements_registry.json",
@@ -3673,28 +3672,28 @@
     },
     {
       "path": "REFERENCES/project-planning/PUBLICATION_MANIFEST.json",
-      "bytes": 2865,
-      "sha256": "c33a3ffe888c138d9ed164f754626296107c8c7bfa344a597c8876f7809aaec9"
+      "bytes": 3122,
+      "sha256": "0e72de0a8ce43e1a9a3b30e6c77325f7b35bc0f0e0c7e36192545e7ad0a3010c"
     },
     {
       "path": "REFERENCES/PROJECT_LABELS.md",
-      "bytes": 4553,
-      "sha256": "cf44af0f1335309bdbcad4e93de9eab24d8954e46843e41f090e136f1cb5148e"
+      "bytes": 4562,
+      "sha256": "3b84306045d75bf0c243f558b17bb1541210fc6fa0e0a1ac2ba9510d87284a73"
     },
     {
       "path": "REFERENCES/README.md",
-      "bytes": 3839,
-      "sha256": "ff22acc3faf0e8dd82b7eaa401670497d1320c552e7ce55b6c60103831b65acb"
+      "bytes": 3981,
+      "sha256": "9479b0226236c7fd2aac7f316e63373ac22a5675688f2b260ee4659f87b4d920"
     },
     {
       "path": "REFERENCES/SOURCE_AND_USAGE_SNAPSHOT.md",
-      "bytes": 1413,
-      "sha256": "ed946255e314b425cc1c70b12b24494bc117f682194d0db154bae3bb8df4d306"
+      "bytes": 1513,
+      "sha256": "c10aea67355343cd8c9a0cee10f575d62f0129c23124ab24668091cab26b8845"
     },
     {
       "path": "SUBMISSION_CONTENTS.md",
-      "bytes": 2337,
-      "sha256": "5a4a40a4d62cb15e71671132a00a94a42caf5ad5f28ec5c20a233c1caae8ca17"
+      "bytes": 2357,
+      "sha256": "d684d77fa820baf3e36c77a48225e5a266377502a4dfba85a574fb478b59015d"
     }
   ],
   "packaging_differences_from_first_review": {
@@ -3788,8 +3787,8 @@
   "broken_local_links": [],
   "deployment_and_benchmark_code_unchanged": true,
   "runtime_changes": 0,
-  "committed": false,
-  "pushed": false,
+  "committed": true,
+  "pushed": true,
   "documentation_revisions": [
     {
       "topic": "Spanish translation, female Spanish TTS and English-configured recognition limits",
@@ -3809,6 +3808,12 @@
       "new_live_tests": 0,
       "runtime_changes": 0,
       "formal_Spanish_quality_benchmark": false
+    },
+    {
+      "topic": "Published-document status cleanup",
+      "reason": "Removed stale submission-workflow notices; historical extract edits are disclosed in reference manifests.",
+      "runtime_changes": 0,
+      "benchmark_results_changed": false
     }
   ],
   "owner_layout_revision": {
@@ -3834,5 +3839,7 @@
     ],
     "navigation_reconciled": true,
     "architecture_pdf_reference_caption_updated": true
-  }
+  },
+  "owner_file_review_approved": true,
+  "initial_publication_commit": "0594985ac0c64ca797377f89ab889610b88753a1"
 }

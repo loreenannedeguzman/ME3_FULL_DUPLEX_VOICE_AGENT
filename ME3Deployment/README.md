@@ -1,6 +1,6 @@
-# ME3 Deployment — review copy
+# ME3 Deployment — published source
 
-This directory contains the ME3 implementation staged for owner inspection before any commit or upload to [ME3_FULL_DUPLEX_VOICE_AGENT](https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT).
+This directory contains the ME3 implementation published in [ME3_FULL_DUPLEX_VOICE_AGENT](https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT).
 
 The measured Raspberry Pi candidate is `03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b` (586 source entries, 64 native package entries). This publication copy contains disclosed privacy substitutions and excludes the operator's governance, credentials, authorization and working data. It has **not** been admitted or run as a replacement installation. Its hashes are recorded separately in `provenance/`; it must not be presented as a byte-identical copy of the measured candidate.
 

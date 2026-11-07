@@ -4,7 +4,7 @@
 
 The source tree, project dependency declarations/lock files, AEC shim source/build helper, and the existing Baby Onit adaptation notice/license are included. `third_party/baby-onit/NOTICE` identifies the adapted retrieval approach, upstream commit and changes; `third_party/baby-onit/LICENSE` retains Apache License 2.0. This notice does not license unrelated dependencies or the entire ME3 project.
 
-The owner has not selected a project-wide redistribution license in this staging step. Do not add an assumed MIT/Apache/GPL grant or remove existing notices before owner review.
+No project-wide redistribution license has been selected. Do not infer an MIT/Apache/GPL grant; existing third-party notices remain in force.
 
 ## Separate Python environments
 

@@ -51,7 +51,7 @@ F means a finalization phase. WB means a work block in the broader project plan.
 | PROJECT_BOARD.json | [Selected board fields, work blocks and phase criteria](project-planning/PROJECT_BOARD.json) |
 | PROJECT_WORK_PLAN.md | [Goals and generated reviewer tables](project-planning/PROJECT_WORK_PLAN.md) |
 | docs/requirements_registry.json | [All 44 requirements and acceptance fields](project-planning/docs/requirements_registry.json) |
-| docs/onit_execution_plan.md | [Byte-exact execution plan snapshot](project-planning/docs/onit_execution_plan.md) |
+| docs/onit_execution_plan.md | [Labelled execution plan publication extract](project-planning/docs/onit_execution_plan.md) |
 | docs/measurement_protocol.md | [Byte-exact historical preparation protocol](project-planning/docs/measurement_protocol.md) |
 | Current source/resource ledgers | [Publication-safe identity and usage snapshot](SOURCE_AND_USAGE_SNAPSHOT.md) |
 

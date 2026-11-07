@@ -2,7 +2,7 @@
 
 Loreen Anne P. De Guzman · AI 231 · Student number 202521201
 
-**Owner review folder. No commit or push until approved.**
+**Published project submission - 7 November 2026.**
 
 ME3 runs on a Raspberry Pi 5 using Pipecat, student-built speech MCP services, Onit, shared voice/text context and guarded tools. Speech and typed text are both valid inputs. Typing can support unclear or unrecognized speech without starting a separate task context. Normal operation needs Wi-Fi and privately configured cloud services, with no laptop/Codex desktop runtime process.
 
@@ -16,7 +16,7 @@ Spanish drafting/translation and contextual spoken replies were demonstrated wit
 - [4. GUI voice/text guide](<4 - ME3_GUI_VOICE_TEXT_GUIDE.md>): Controls, captured text, typed corrections, Copy conversation, Spanish output and demo preparation.
 - [5. Engineering history](<5 - ME3_ENGINEERING_HISTORY.md>): Development decisions, failures and finite qualification evidence.
 
-See [submission contents](SUBMISSION_CONTENTS.md) for the complete arranged review tree.
+See [submission contents](SUBMISSION_CONTENTS.md) for the complete submission tree.
 
 ## Three folders
 
@@ -32,4 +32,4 @@ Pi source-manifest identity: `03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018
 
 Presentation scripts remain in the separate local study folder. Credentials, account state, private conversations/contacts/media, environments, raw recordings and model weights are excluded. Four sensitive original log documents remain privately retained; eligible reference originals and labelled extracts disclose their provenance. No project-wide redistribution license is assumed.
 
-Intended repository: https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT
+Repository: https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT

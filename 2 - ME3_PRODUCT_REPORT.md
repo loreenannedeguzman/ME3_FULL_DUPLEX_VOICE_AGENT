@@ -5,10 +5,10 @@
 Reader reference: [phase/work-block labels and cited planning documents](REFERENCES/PROJECT_LABELS.md). Labels such as F5 and WB-09 identify different levels of the work plan; they are not grades.
 
 **LOREEN ANNE P. DE GUZMAN · Student number 202521201 · AI 231**  
-**Document:** owner-review draft, 7 November 2026. Collection003 stopped; collection004 has 30 locally scored stage trials and incomplete behavior evaluation; separate005 stopped at startup;006 retained nine behavior execution records;007 completed and scored the five remaining slots. All 14 selected behavior executions are recorded across separate partitions, not passed. F7 remains partial.  
-**Intended repository:** [ME3_FULL_DUPLEX_VOICE_AGENT](https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT). No commit or push before the owner's file review; repository visibility is not assumed here.
+**Document:** published product report, 7 November 2026. Collection003 stopped; collection004 has 30 locally scored stage trials and incomplete behavior evaluation; separate005 stopped at startup;006 retained nine behavior execution records;007 completed and scored the five remaining slots. All 14 selected behavior executions are recorded across separate partitions, not passed. F7 remains partial.  
+**Repository:** [ME3_FULL_DUPLEX_VOICE_AGENT](https://github.com/loreenannedeguzman/ME3_FULL_DUPLEX_VOICE_AGENT).
 
-The selected Pi installation has source-manifest identity `03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b`, with 586 source entries and 64 native-package entries. This digest is **not a Git commit**. The measured source and evaluation adapter were frozen on 7 November 2026; the release Git commit/tag remain pending owner file approval. The separately sanitized [deployment review copy](ME3Deployment/README.md) discloses its differences and has not been admitted as a replacement installation.
+The selected Pi installation has source-manifest identity `03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b`, with 586 source entries and 64 native-package entries. This digest is **not a Git commit**. The measured source and evaluation adapter were frozen on 7 November 2026; the initial published Git commit is `0594985ac0c64ca797377f89ab889610b88753a1`. The separately sanitized [deployment source copy](ME3Deployment/README.md) discloses its differences and has not been admitted as a replacement installation.
 
 ## 1. Executive overview
 
@@ -27,7 +27,7 @@ The Pi runs the normal GUI, conversation controller, MCP services and output pat
 | Voices | English `en_US-ljspeech-medium`; female Spanish `es_ES-sharvard-medium` |
 | Interface | Authenticated normal GUI on Pi port 8765, voice, text and Artifacts |
 | Accepted final scope | Owner-accepted supported functional exit, including the final WhatsApp submission and observed automatic close |
-| Remaining gates | Review of weak/limited benchmark results and unavailable measures, final package review and authorized publication |
+| Evaluation boundary | F7 remains partial: weak timely-response results and unavailable semantic/acoustic measures are disclosed in the benchmark report |
 
 This is a supported-scope product report, not a claim that every master requirement, network condition or possible task has passed.
 
@@ -70,7 +70,7 @@ The final owner441 message operation is host/Gateway **VERIFIED**, with backend 
 
 The interface supports typed input as an alternative to voice and displays successfully recognized speech as user text. Both input routes use the same conversation and task context. The composer accepts Enter/Send, with Shift+Enter for a newline; a typed correction supplies a new clarification rather than editing the earlier transcript. **Copy conversation** copies the displayed user/assistant exchange, including reply-state labels. It does not export audio or internal journals. Recognition errors, interrupted speech and service notices remain visible limitations. See [the GUI voice/text guide](<4 - ME3_GUI_VOICE_TEXT_GUIDE.md>) for controls, context behavior and implementation links.
 
-The GUI presents the conversation, task outcomes and Artifacts. Owner-click file/ZIP delivery and sandboxed static preview are distinct from a private application service's network namespace. Closing a preview does not automatically stop its backend. The final GUI image and actual hardware photographs are not included in this draft; they must be actual captures, never illustrative substitutes.
+The GUI presents the conversation, task outcomes and Artifacts. Owner-click file/ZIP delivery and sandboxed static preview are distinct from a private application service's network namespace. Closing a preview does not automatically stop its backend. The final GUI image and actual hardware photographs are not included in this submission; they must be actual captures, never illustrative substitutes.
 
 MCP operations are admitted through their real schemas and the current grant. Configured integrations are not blanket permission to inspect contacts, inboxes or accounts. Consequential operations retain exact reviews, separate current confirmation, once-only journals and independent verification. An uncertain or consumed operation is not automatically retried.
 
@@ -280,7 +280,7 @@ Priorities include reducing measured provider/turn waiting, improving natural pa
 
 ## 11. Conclusion
 
-ME3 combines a real Pi-hosted voice/task architecture with the original Onit planner, student speech MCP services, local VAD/Piper and a host-controlled execution boundary. Finite conversations and tasks demonstrate useful supported operation, culminating in the owner-accepted send/autoclose result. Network failures, redundant-close behavior, limited reproduction scope and incomplete measurements remain explicit. Final benchmark conclusions and publication acceptance await actual evaluation and the owner's file review; no numerical grade is claimed.
+ME3 combines a real Pi-hosted voice/task architecture with the original Onit planner, student speech MCP services, local VAD/Piper and a host-controlled execution boundary. Finite conversations and tasks demonstrate useful supported operation, culminating in the owner-accepted send/autoclose result. Network failures, redundant-close behavior, limited reproduction scope and incomplete measurements remain explicit. The published benchmark results establish partial qualification, with response latency and timely-response reliability as the main limitations; no numerical overall grade is claimed.
 
 ## 12. References and supporting resources
 
@@ -330,8 +330,8 @@ See [BENCHMARK_RESULTS.md](Benchmarks/BENCHMARK_RESULTS.md) for actual collectio
 | Field | Value |
 |---|---|
 | Prepared by | LOREEN ANNE P. DE GUZMAN, 202521201 |
-| Status | Local owner-review draft; no commits/pushes |
+| Status | Published project submission, 7 November 2026 |
 | Candidate | Source manifest `03d7a144…2721b`, 586 source / 64 native entries |
-| Release/Git identity | Pending actual release and owner approval; not invented from source digest |
+| Release/Git identity | Initial published commit `0594985ac0c64ca797377f89ab889610b88753a1`; later documentation corrections are recorded in Git history. The measured source digest is a separate identity. |
 | Evaluation | F6 source freeze plus separate adapter004 addendum; collection003 STOPPED; collection004 STOPPED with partial local scoring; 005 STOPPED at startup;006 nine behavior IDs scored /007 remaining five scored; disjoint coverage complete, performance not all-pass; judge NOT_SCORED; F7 PARTIAL |
 | Related documents | EngineeringHistory, ME3Deployment, GUI_VOICE_TEXT_GUIDE and REFERENCES |
