@@ -1,0 +1,70 @@
+{
+  "status": "HISTORICAL007_SELECTED_CONTINUATION_NOT_A_GRANT",
+  "execution_approved": false,
+  "source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
+  "normal_runtime_changed": false,
+  "base_source": "adapter005",
+  "delta_source": "adapter007-delta",
+  "source_delta_files": [
+    {
+      "path": "benchmark_resources.py",
+      "original_sha256": "9b7ccc81371659fe642b4683d76bda50492568bd3576e38438ac4815a3385f4c",
+      "publication_sha256": "9b7ccc81371659fe642b4683d76bda50492568bd3576e38438ac4815a3385f4c",
+      "byte_exact": true,
+      "delta": null
+    },
+    {
+      "path": "laptop_collect441.py",
+      "original_sha256": "f02ef3a90fbae16bb399be802136e4f7b0b960b990191d06406a0228d0052d35",
+      "publication_sha256": "411178c48a51dbdb68600bb6885c09c6233ab1e8916ea3559e0361dd608535ae",
+      "byte_exact": false,
+      "delta": "Academic student identifier replaced by neutral example."
+    },
+    {
+      "path": "pi_collect441.py",
+      "original_sha256": "96ff1598e39b55cd271bbb8ab464a16346cda46a442d63eef0a1a5c18a88713f",
+      "publication_sha256": "96ff1598e39b55cd271bbb8ab464a16346cda46a442d63eef0a1a5c18a88713f",
+      "byte_exact": true,
+      "delta": null
+    },
+    {
+      "path": "behavior-plan.PREDECLARED.json",
+      "original_sha256": "729b3fbe45084970cb53a020c14317219f746652eca47aa458754a573a2d5a3d",
+      "publication_sha256": "729b3fbe45084970cb53a020c14317219f746652eca47aa458754a573a2d5a3d",
+      "byte_exact": true,
+      "delta": null
+    }
+  ],
+  "adapter_manifest_sha256": "298b4d22d4b6e4e15033fd26817ad4abeff206fdb10db6eb561677c436fadbd2",
+  "contract_sha256": "f5dfd1b9b03ee5cfc1172a7e8c91610b52a075a57815fe73f4195ec4104fcb46",
+  "freeze_sha256": "048b3a278f5f0111252ba346b3c90c055bd30ca6f71f5d8cad4f8f191f1c1afd",
+  "collection_receipt_sha256": "caeacf2549d8c843c1e015c7eb8d56be1014ec1e3d8f0289302e2186fb758df2",
+  "scorer_receipt_sha256": "727c77f8ef3dff0fd418ca97ea70146a1e67343937b2d6a2529cb0395effffaf",
+  "audio_core_voice_byte_exact_to_qualified005": true,
+  "qualification_reused_no_new_tests": true,
+  "selected_original_indices": [
+    7,
+    8,
+    9
+  ],
+  "selected_queue_items": 3,
+  "scored_timing_executions": 5,
+  "reply_expecting_executions": 4,
+  "course_no_reply_count": 4,
+  "headless_trigger_avoided": "At most four reply-expecting executions below unchanged five-miss pause; not a universal headless fix.",
+  "previous_nine_executions_repeated": 0,
+  "stage_trials_repeated": 0,
+  "unique_006007_selection_ID_coverage": 14,
+  "overlapping_selection_IDs": 0,
+  "raw_trials_pooled": false,
+  "latencies_pooled": false,
+  "all_pass_inferred": false,
+  "judge_calls": 0,
+  "final_observed_usage": {
+    "asr": 1064,
+    "reasoning": 2080,
+    "tts": 2487,
+    "commit_item": 2
+  },
+  "F7_status": "PARTIAL"
+}

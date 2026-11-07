@@ -1,0 +1,55 @@
+{
+  "status": "COVERAGE_PARTITION_ONLY_NOT_POOLED_RESULTS",
+  "prior006_queue_sha256": "b95e329bc50ddfe73af09888f09da3260404d3cbc1ccf71e4dfcf9e5c6e374a7",
+  "cohort006": {
+    "queue_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "queue_items": 7,
+    "unique_execution_ids": [
+      "r01_false_tt_false_side_talk_005",
+      "r01_false_tt_false_tv_radio_005",
+      "r01_v15_background_v15_background_50",
+      "r01_v15_background_v15_background_50_clean",
+      "r01_v15_talking_to_other_v15_talking_to_other_91",
+      "r01_v15_talking_to_other_v15_talking_to_other_91_clean",
+      "r01_v1_interrupt_v1_interrupt_120",
+      "r01_v1_pause_synth_v1_pause_synth_11",
+      "r01_v1_turntaking_v1_turntaking_36"
+    ]
+  },
+  "cohort007": {
+    "queue_indices": [
+      7,
+      8,
+      9
+    ],
+    "queue_items": 3,
+    "unique_expected_execution_ids": [
+      "r01_v15_backchannel_v15_backchannel_7",
+      "r01_v15_backchannel_v15_backchannel_7_clean",
+      "r01_v15_interruption_v15_interruption_25",
+      "r01_v15_interruption_v15_interruption_25_clean",
+      "r01_v1_pause_candor_v1_pause_candor_161"
+    ],
+    "unique_observed_timing_ids": [
+      "r01_v15_backchannel_v15_backchannel_7",
+      "r01_v15_backchannel_v15_backchannel_7_clean",
+      "r01_v15_interruption_v15_interruption_25",
+      "r01_v15_interruption_v15_interruption_25_clean",
+      "r01_v1_pause_candor_v1_pause_candor_161"
+    ],
+    "missing_timing_ids": []
+  },
+  "coverage_overlap_count": 0,
+  "latencies_pooled": false,
+  "raw_trials_pooled": false,
+  "cohort004_stage_results_imported": false,
+  "all_pass_inferred": false
+}

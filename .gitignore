@@ -1,0 +1,14 @@
+# Keep private/runtime material out of the submission.
+.env
+.env.*
+!.env.example
+!*.example
+.venv*/
+__pycache__/
+*.pyc
+*.sqlite*
+*.db
+*.pem
+*.key
+.tmp/
+.deps/

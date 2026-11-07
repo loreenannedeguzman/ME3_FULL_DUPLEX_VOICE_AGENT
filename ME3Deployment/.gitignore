@@ -1,0 +1,19 @@
+# Runtime/private material is provisioned locally, never copied from the owner.
+.env
+.env.*
+!.env.example
+!*.example
+.venv*/
+.tmp/
+.deps/
+models/
+data/
+evidence/
+__pycache__/
+*.pyc
+*.sqlite*
+*.db
+*.pem
+*.key
+auth.json
+tokens.json

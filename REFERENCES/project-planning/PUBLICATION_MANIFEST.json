@@ -1,0 +1,71 @@
+{
+  "purpose": "Explicit reviewer extracts and byte-exact eligible planning snapshots; originals unchanged",
+  "originals": {
+    "PROJECT_BOARD.json": {
+      "bytes": 1743572,
+      "sha256": "a40a04dda214457644ff0563c4e55c88afa612a46bbcb45dc496ba4b25f4a83e"
+    },
+    "PROJECT_WORK_PLAN.md": {
+      "bytes": 562832,
+      "sha256": "0f7e11255fb1da55fd9189b8f2bfd4da52e5b77c3bcf160b5e17d424cd01fcb2"
+    },
+    "docs/requirements_registry.json": {
+      "bytes": 2002073,
+      "sha256": "40daaa27634b90b9bfb92f912fe9dc643c8d929467c0e5d030d71b5e47dacbf3"
+    },
+    "docs/onit_execution_plan.md": {
+      "bytes": 30205,
+      "sha256": "d147be76642b216aec5cec32cb864ceb94c9aa6dcc2c3c9829615a3507f6feb9"
+    },
+    "docs/measurement_protocol.md": {
+      "bytes": 10185,
+      "sha256": "27873325ad000cba6d4096ab51bbd29f8f6c9d0cdb5e531b45c02b59471ccbc0"
+    },
+    "docs/agreed_benchmark_plan.md": {
+      "bytes": 6926,
+      "sha256": "5d8d1ad760a06de4ae46e833b3167b559716cf52f089ee33f2c724ee782fb0e7"
+    }
+  },
+  "included": [
+    {
+      "path": "PROJECT_BOARD.json",
+      "bytes": 65613,
+      "sha256": "78a99df81adcbd1511fe2869157d135488f7242c5a6c59918d6d3d53cdec2367",
+      "kind": "explicit reviewer extract"
+    },
+    {
+      "path": "PROJECT_WORK_PLAN.md",
+      "bytes": 5220,
+      "sha256": "0819c88eb747b5028115e4216624211b02d281e19639cfab46f0c7f596308aa3",
+      "kind": "explicit reviewer extract",
+      "previous_publication_sha256": "bba81e201e9bc8768590193cc94766785fd068395ad6d9014acd521f944d603e",
+      "navigation_update": "Owner-numbered root document links; original private source unchanged.",
+      "previous_navigation_sha256": "0efd0b7dc6d7cb442d7b23ef24123598c2413a9e9aa248440956bb3a8b1bd371"
+    },
+    {
+      "path": "docs/requirements_registry.json",
+      "bytes": 204340,
+      "sha256": "5d9cc38ec77f5d4bc5c0013f2463e237bafce7366b3c06b5bc038f8872a736e1",
+      "kind": "explicit reviewer extract"
+    },
+    {
+      "path": "docs/onit_execution_plan.md",
+      "bytes": 30205,
+      "sha256": "d147be76642b216aec5cec32cb864ceb94c9aa6dcc2c3c9829615a3507f6feb9",
+      "kind": "byte-exact original snapshot"
+    },
+    {
+      "path": "docs/measurement_protocol.md",
+      "bytes": 10185,
+      "sha256": "27873325ad000cba6d4096ab51bbd29f8f6c9d0cdb5e531b45c02b59471ccbc0",
+      "kind": "byte-exact original snapshot"
+    },
+    {
+      "path": "docs/agreed_benchmark_plan.md",
+      "bytes": 6926,
+      "sha256": "5d8d1ad760a06de4ae46e833b3167b559716cf52f089ee33f2c724ee782fb0e7",
+      "kind": "byte-exact original snapshot"
+    }
+  ],
+  "excluded": "Historical progress/test/transcript/operation payloads, private source/resource ledgers, contact/account material, and previously withheld sensitive originals. No fake evidence files created."
+}

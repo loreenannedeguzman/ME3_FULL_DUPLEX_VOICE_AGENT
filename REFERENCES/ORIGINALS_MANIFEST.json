@@ -1,0 +1,83 @@
+{
+  "snapshot": "After actual006/007 final reporting amendment; all declared timing selections recorded, F7 remains PARTIAL",
+  "original_host": "Independent laptop F project reporting corpus",
+  "originals_modified_by_publication_copy": false,
+  "silently_redacted_originals": false,
+  "references": [
+    {
+      "original_name": "AGENT_LOG.md",
+      "bytes": 720040,
+      "sha256": "b86f883c7825ae8d047007065762a6e9cb1621b72f16a005cf0be360b4d4be72",
+      "included_byte_exact": false,
+      "withheld": true,
+      "previous_snapshot_sha256": "a36be232f76d8fb4c7d756ef52ca0cdcea4e3567253cdc77bb7d7d4325a6bd0e",
+      "historical441_findings_counts_only": {
+        "credential_like_value": 2,
+        "personal_mobile_number": 12
+      },
+      "current_full_body_rescanned": false,
+      "new_AGENTS_delta_screened": false
+    },
+    {
+      "original_name": "AGENTS.md",
+      "bytes": 36619,
+      "sha256": "1d6833dc4dbb7aa79dda5ca2e78d14eba513add3813a7f01fdec3ff540ba2cde",
+      "included_byte_exact": true,
+      "withheld": false,
+      "previous_snapshot_sha256": "671c199b4136ccc4cc92faf818ca8069e2dda105a77c247a36ca6dc46e45cf1d",
+      "historical441_findings_counts_only": {},
+      "current_full_body_rescanned": false,
+      "new_AGENTS_delta_screened": true
+    },
+    {
+      "original_name": "DECISIONS.md",
+      "bytes": 637730,
+      "sha256": "c5ceb20012a4f1b5ec8b52be4c0c27e303a715169e43fd0f016fc34b9eb6e597",
+      "included_byte_exact": false,
+      "withheld": true,
+      "previous_snapshot_sha256": "2edaaffa98eb4722c7ebac87b159f39dd13d53aaaa49f919bab4461e945a77dd",
+      "historical441_findings_counts_only": {
+        "credential_like_value": 1,
+        "personal_mobile_number": 12
+      },
+      "current_full_body_rescanned": false,
+      "new_AGENTS_delta_screened": false
+    },
+    {
+      "original_name": "EXAM_NOTES.md",
+      "bytes": 586171,
+      "sha256": "6eada12d58803c84d5c5ec8d75667a7fc0a28c1fd03bfd582c8fa6873ad64323",
+      "included_byte_exact": false,
+      "withheld": true,
+      "previous_snapshot_sha256": "28d6100b4b24ce8484d17ef096cc6d68ffdab110ffdc7db345f1f7bd6cd30b64",
+      "historical441_findings_counts_only": {
+        "credential_like_value": 2,
+        "personal_mobile_number": 12
+      },
+      "current_full_body_rescanned": false,
+      "new_AGENTS_delta_screened": false
+    },
+    {
+      "original_name": "EXPERIMENT_LOG.md",
+      "bytes": 865062,
+      "sha256": "60ae036e82182bde598f392410e8ef169ca9105b229ae6c4f4f54329440c563d",
+      "included_byte_exact": false,
+      "withheld": true,
+      "previous_snapshot_sha256": "d0ae8294d54ff8ca2ad611d7e814d4bcd666a435e46633518637c36563e6187d",
+      "historical441_findings_counts_only": {
+        "credential_like_value": 3,
+        "personal_email_address": 1,
+        "personal_mobile_number": 12
+      },
+      "current_full_body_rescanned": false,
+      "new_AGENTS_delta_screened": false
+    }
+  ],
+  "previous_manifest_sha256": "47d78e65be299dd372592c09ca9600763220efba8c0e13bb5ed5d6f634d4407d",
+  "restart_record_inputs_sha256": "8306e45b71c1983ceec60d6ae3b21a4437517df7e936e3ebb3dd02510d94bb97",
+  "final_record_receipt_sha256": {
+    "Pi": "43830c187c9cfec01abfbed616206eed41a53e0222855a2c91dda5dd26828f79",
+    "F": "f7f4dae85b782734b29b0edd0f1de9c5365cd5a64133aa95809c206eec372e1b"
+  },
+  "review_status": "LOCAL_OWNER_REVIEW_ONLY_NO_COMMITS"
+}

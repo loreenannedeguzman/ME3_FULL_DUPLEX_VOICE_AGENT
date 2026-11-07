@@ -1,0 +1,59 @@
+flowchart TB
+  USER["User: voice or typed input"]
+  subgraph CLOUD["Cloud services reached over Wi-Fi"]
+    GROQ["Groq Whisper large-v3-turbo<br/>Speech recognition"]
+    LLM["Configured main reasoner<br/>gpt-6.1-sol"]
+    QWEN["Qwen qwen3.8-27b<br/>Tool-free floor advisory only"]
+    EXT["Configured search / calendar / email /<br/>WhatsApp / supported media services"]
+  end
+  subgraph PI["Raspberry Pi 5 — standalone normal runtime"]
+    GUI["Basic GUI<br/>Mic, text, conversation, Copy conversation,<br/>status notices and Artifacts preview"]
+    AUDIO["Pipecat audio pipeline<br/>Silero VAD / SmartTurn / WebRTC AEC"]
+    ASR["Student-built ASR MCP / FastMCP stdio<br/>transcribe: 16 kHz mono PCM16 / Base64<br/>Validation, WAV conversion, deadlines and cleanup"]
+    CTX["Shared Conversation / Context<br/>Bounded history, goal ID/revision, clarification,<br/>tool evidence, retained replies and preview state"]
+    ONIT["Onit: sole task-planning loop<br/>Interpret goal, select tools, prepare response"]
+    BROKER["Metered provider broker<br/>Admission, request accounting and protocol checks"]
+    GATE["Guarded execution gateway<br/>Scoped permission, exact review, separate confirmation,<br/>outcome verification; uncertainty is not replay authority"]
+    TOOLS["Pi-hosted MCP tools / adapters<br/>Research, utilities, productivity, media,<br/>communication and artifact/code workspace"]
+    ART["Saved artifacts / in-GUI previews<br/>Owned bounded jobs and fresh health status<br/>Closing a preview differs from stopping a server"]
+    JOURNAL["Durable action/intent journals<br/>Counters, once-only records and status evidence"]
+    DELIVERY["Validated speech delivery<br/>Spoken-text preparation, phrase grouping,<br/>bounded synthesis/playback lookahead"]
+    TTS["Student-built TTS MCP / FastMCP stdio<br/>Resident local Piper CPU worker<br/>English + female Spanish; 24 kHz mono PCM16"]
+    MIX["Speech/music mixer and speaker<br/>Generation-owned playback buffers"]
+    DUPLEX["Host duplex control<br/>Generation/request ownership; reject stale output<br/>Acknowledgment: suspend/resume SAME answer<br/>Correction: cancel obsolete output and replace"]
+    USER --> GUI
+    GUI -->|voice capture| AUDIO
+    GUI <-->|typed input / display| CTX
+    AUDIO -->|captured PCM| ASR
+    ASR <-->|WAV over HTTPS / transcript| GROQ
+    ASR -->|recognized text| CTX
+    CTX <--> ONIT
+    ONIT <--> BROKER
+    BROKER <-->|main reasoning| LLM
+    ONIT <-->|tool proposals / verified results| GATE
+    GATE <--> TOOLS
+    TOOLS <--> EXT
+    TOOLS <--> ART
+    GATE --> JOURNAL
+    ART --> JOURNAL
+    ONIT --> DELIVERY
+    DELIVERY -->|text and language| TTS
+    TTS -->|PCM| MIX
+    TOOLS -->|supported music playback| MIX
+    MIX -.->|echo reference| AUDIO
+    AUDIO -.->|activity evidence| DUPLEX
+    CTX -.->|contextual disposition| DUPLEX
+    DUPLEX <-.-> QWEN
+    DUPLEX -.->|pause / resume / clear| MIX
+    DUPLEX -.->|current generation only| DELIVERY
+    DUPLEX -.->|validated replacement intent| CTX
+    ART <-->|show / close preview| GUI
+  end
+  classDef local fill:#f3f7fa,stroke:#cfdae3,color:#22374a;
+  classDef remote fill:#e8f4f3,stroke:#087d85,color:#13283c;
+  classDef guard fill:#fff2e7,stroke:#df782c,color:#13283c;
+  classDef stored fill:#fff5e9,stroke:#cfdae3,color:#13283c;
+  class GUI,AUDIO,ASR,CTX,ONIT,BROKER,DELIVERY,TTS,MIX,TOOLS local;
+  class GROQ,LLM,QWEN,EXT remote;
+  class GATE,DUPLEX guard;
+  class ART,JOURNAL stored;

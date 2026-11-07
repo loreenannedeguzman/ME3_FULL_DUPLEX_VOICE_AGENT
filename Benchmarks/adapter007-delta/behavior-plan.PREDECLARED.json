@@ -1,0 +1,48 @@
+{
+  "status": "EXPLICIT007_ONLY006_UNSTARTED_ITEMS",
+  "prior006_queue_sha256": "b95e329bc50ddfe73af09888f09da3260404d3cbc1ccf71e4dfcf9e5c6e374a7",
+  "prior006_collection_receipt_sha256": "a59e69b002b75e04101fb7edb05685d1d0796fc07f65e8de3e62defcb49ac9ec",
+  "prior_statuses": [
+    "pending",
+    "pending",
+    "pending"
+  ],
+  "plan": {
+    "seed": 0,
+    "rounds": 1,
+    "phrases": 0,
+    "runs": 0,
+    "items": [
+      {
+        "index": 7,
+        "round": 1,
+        "group": "v15_interruption",
+        "clip_id": "v15_interruption_25",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 8,
+        "round": 1,
+        "group": "v15_backchannel",
+        "clip_id": "v15_backchannel_7",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 9,
+        "round": 1,
+        "group": "v1_pause_candor",
+        "clip_id": "v1_pause_candor_161",
+        "kind": null,
+        "status": "pending"
+      }
+    ]
+  },
+  "executions": 5,
+  "reply_expected_executions": 4,
+  "all_nine_prior_trials_not_repeated": true,
+  "zero_stage_trials": true,
+  "upstream_keyboard_pause_unmodified": true,
+  "scope": "At most4 reply-expected executions cannot reach upstream5-miss pause. This does not repair the general headless pause limitation."
+}

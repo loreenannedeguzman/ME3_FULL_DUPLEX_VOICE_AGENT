@@ -1,0 +1,6 @@
+{
+  "provider": "google",
+  "profile": "low",
+  "audio_format": "flac",
+  "selection": "Explicit M7 lossless FLAC after lifecycle-001 same-PCM feasibility test; no fallback; LOW retained after incomplete thinking pairs"
+}

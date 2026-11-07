@@ -1,0 +1,1204 @@
+{
+  "_publication": {
+    "kind": "Reviewer extract, not a byte-exact original or runtime authority",
+    "source_snapshot_updated_manila": "2026-11-07T08:46:45.201578+08:00",
+    "source_host": "Independent laptop planning records; Pi and laptop runtime lineages are separate",
+    "selection": "Only the stated fields/sections are included. Historical progress payloads, raw journals, account material and private operational settings are omitted, not represented as unchanged originals.",
+    "status_warning": "Recorded planning and requirement statuses are not a blanket final pass. See the current product and benchmark reports; F7 remains PARTIAL.",
+    "source": "PROJECT_BOARD.json",
+    "original_sha256": "a40a04dda214457644ff0563c4e55c88afa612a46bbcb45dc496ba4b25f4a83e"
+  },
+  "schema_version": 1,
+  "project": "ME3 Raspberry Pi 5 general-purpose full-duplex voice agent",
+  "created_manila": "2026-10-24T13:05:13.996927+08:00",
+  "updated_manila": "2026-11-07T08:46:45.201578+08:00",
+  "management_status": "ENGINEERING_ACTIVE",
+  "overall_status": "PARTIAL_PASS",
+  "active_work_block": "WB-13.2",
+  "next_work_block": "WB-13.2",
+  "status_definitions": {
+    "PLANNED": "Not yet implemented/qualified.",
+    "READY": "Prerequisites for this bounded next task are available, subject to the engineering pause.",
+    "IN_PROGRESS": "The identified block is actively being worked.",
+    "PARTIAL": "Some implementation/evidence exists; its complete exit criterion has not passed.",
+    "VERIFIED_SCOPED": "A named finite capability passed on its recorded revision/conditions; not a whole-project pass.",
+    "WAITING_PREREQUISITE": "Specific device, account, access, reference data or other prerequisite is missing; independent preparation may continue when resumed.",
+    "DEFERRED_BY_USER": "Explicitly deferred by the user; retained in scope tracking and not counted as passed.",
+    "FAILED_ACCEPTANCE": "An attempted acceptance check failed; retain its evidence while fixing the identified issue.",
+    "ACCEPTED": "This block exit criterion has passed with closure evidence. For WB-00 this means management artifacts only."
+  },
+  "execution_order": [
+    "WB-03.8",
+    "WB-03.7",
+    "WB-02.4",
+    "WB-07.6",
+    "WB-03.14",
+    "WB-02.6",
+    "WB-07.3",
+    "WB-07.4",
+    "WB-07.5",
+    "WB-09",
+    "WB-01",
+    "WB-02",
+    "WB-03",
+    "WB-04",
+    "WB-10",
+    "WB-13.5",
+    "WB-13.1",
+    "WB-11",
+    "WB-12",
+    "WB-13.2",
+    "WB-13.3",
+    "WB-13.4",
+    "WB-14",
+    "WB-15"
+  ],
+  "control_rules": [
+    "Before engineering resumes, read this board, PROJECT_WORK_PLAN.md and current actual source/resource ledgers. A plan entry is not permission to resume a user pause.",
+    "Identify each action/update by a stable work ID, such as WB-01.1. Use the same ID in relevant AGENT_LOG, EXPERIMENT_LOG, decision/requirement records and new evidence metadata; reference old evidence without rewriting it.",
+    "Use implement -> integrate -> focused provider-free test -> deploy -> bounded exercise -> independently verify -> fix if needed -> relevant regression -> record -> close. Use full suites at the required gates or when new changes/failures justify them, not after every unchanged observation.",
+    "Each change needs a concrete requirement/observed failure, hypothesis, bounded check, exact source and preserved result. Keep the working speech path unless an acceptance failure justifies a change. Do not repeat the completed architecture audit.",
+    "Only move a block to ACCEPTED when its exit criteria and evidence are recorded. New changes make affected evidence NEEDS_REVALIDATION; source-specific history stays intact. Define a new child ID for added work instead of renaming/erasing history.",
+    "Routine authorized project edits, checks, Pi control and transfers are autonomous. Complete setup/platform approvals before a live cue; do not interrupt the operator with permission-producing monitoring. Platform security controls still apply.",
+    "External sends/calls, consequential device/app effects and destructive/out-of-scope actions retain their applicable explicit authorization. Project setup authorization is not blanket permission to message another person.",
+    "Reconcile actual caps before provider/Piper calls, reserve startup/cues/tool rounds/cancellation costs, increase limits only under explicit applicable user authority and record the change. Never reset counters, refund failures, use hidden retries, silently switch providers or borrow the separate benchmark allowance.",
+    "Preregister every live case: work ID, candidate/config/audio setup, stimulus/expected result, pass/fail, call/effect ceilings and stopping conditions. An operator readiness click starts no audio or effect. No live execution while paused.",
+    "Preserve failed/canceled/timed-out/unstarted trial identities. A later success is a new observation. Independent readback is distinct from an action response and physical audibility is distinct from a software callback.",
+    "Keep devices/accounts/metric prerequisites and user deferrals visible. Only a recorded user-approved scope amendment changes completion obligations; unavailable or deferred capabilities are not PASS.",
+    "No arbitrary percentage or grade. Report accepted blocks and requirement coverage with limitations. Documentation, source hashes or unit tests alone do not establish full live functionality or student mastery.",
+    "Expedite: reproduce shared failures across direct tools, goal workflows, voice-shaped budgets and typed mode in provider-free tests before another live repetition.",
+    "Expedite: run focused checks during implementation and one complete regression per integrated candidate; repeat broader tests only for material changes or unresolved failures.",
+    "Expedite: batch the essential human checks; finish setup, transfers and approvals before the voice cue, preserve first-failure stopping and minimum bounded usage.",
+    "Expedite: advance independent provider-free capability work when its own prerequisites exist instead of waiting idly on hardware/accounts/operator; keep one explicit active WB ID and preserve the deployed test candidate.",
+    "Expedite: reuse project evidence/transfer tooling and standing authorization; routine project preservation is not a new human approval gate. Platform restrictions and genuine security/scope boundaries still apply.",
+    "General-purpose acceptance concerns freely worded, previously unseen user-chosen goals. Exact scripts are targeted regression checks, never the product command vocabulary or evidence of broad understanding.",
+    "Before another human check, identify the unresolved changed behavior and why existing evidence cannot answer it. Fix deterministic problems provider-free; do not automatically replay the rain/calculator or full conversation script.",
+    "Show guided-test instructions before any audio/greeting. Require explicit readiness to speak after briefing, bound to current source/protocol/counters, before starting once. A ready/acknowledgment alone starts nothing; closed attempts cannot restart.",
+    "Preserve deterministic schema, permission and consequential-action confirmation controls while ordinary intent remains model/context driven. Capability limits must be reported without forcing a request into an unrelated canned task.",
+    "Categorical authority: original assignment + COMPLETE master directive govern over every conflicting milestone, old implementation plan, local current-heading or summary. Preserve old text as history; never revive obsolete stop/advance/resource instructions.",
+    "Before choosing work, link a mandatory requirement/master section -> actual unresolved gap -> reusable outcome -> smallest implementation -> observable exit evidence. If that chain is absent, do not spend a packet on it. Logs and tests are means to the outcome, not substitute completion.",
+    "Before repeating a task/check, record what relevant code, condition or unresolved failure changed and why existing scoped evidence cannot answer it. No changed justification means reuse evidence or choose a different open outcome; no repeated full voice script, architecture audit or completed recovery task by default.",
+    "Use this board as the sole queue and requirements_registry.json as the sole requirement status registry. Update entry instructions, applicable operating docs, records and traceability at closure; do not create a competing roadmap.",
+    "Use multi-file artifact, unfamiliar-project repair, shared voice/text context and durable task outcomes explicitly. Do not narrow general-purpose completion to a command catalogue, one game or a voice conversation.",
+    "Required capability areas and course metrics stay in scope. Missing access/reference/evaluator details remain specific unresolved prerequisites; integrations named as examples require feasibility assessment, not blanket installation or automatic acceptance.",
+    "The old 31-trial dataset remains historical. Do not schedule a full rerun or inherit an old cap/sample count merely because it appears in a protocol. New evaluation needs justification, current source qualification, applicable method and fresh applicable authorization.",
+    "At every closure state the completed observable outcome, remaining mandatory gaps, next justified WB ID and actual resource usage. Refresh the current header; keep historical logs/evidence additive. User has resumed and authorized the focused Onit integration; this board-only packet launches no runtime or live check.",
+    "Owner capability numbering migration 2026-10-25T10:21:57.754420+08:00: active WB-05=music/media, WB-06=messaging, WB-07=productivity, WB-08=smart-home. All child prefixes follow their parent. Earlier evidence/logs use historical IDs; consult capability_id_migration before interpreting them. User order supersedes previous queue, with no automatic scripted trial or engineering resumption.",
+    "Onit is the sole candidate planner; legacy Router/Workflow is frozen and cannot be a candidate shadow/fallback planner. Retain deterministic ME3 guards, Pipecat/localVAD/student ASR+TTS MCP and standing accounting. Retire active legacy planning only after the adoption gate; archive historical code/evidence.",
+    "Use complete unfamiliar user goals, verified outcomes, interruption/recovery, actual latency/request/token cost and concrete implementation/maintenance benefit to judge adoption. Repair deterministic adapter/guard defects provider-free; do not repeatedly route the user through tiny scripted tests. No stronger engine claim from the interrupted comparison.",
+    "Current owner priority: complete the actual remaining criteria through WB09, excluding WB08. Gmail is the selected email service; local calendar first, Google Calendar synchronization remains deferred. Preserve previously accepted media/WhatsApp/task/chime/note scopes.",
+    "Use one criterion-level acceptance delta in this board. Record capability, unresolved outcome, proof type and dependency scope; reuse unchanged evidence. A wording-only fix needs deterministic changed-path checks, not another provider or physical voice trial.",
+    "Use one resumable engineering phase pipeline with immutable input manifest and incremental evidence transfer. Resume engineering phases only after observing uncertain remote state; never replay a user goal, send, call, confirmed mutation or live attempt automatically.",
+    "Qualify complete unfamiliar goals through the actual normal tool catalogue, guarded gateway and shared context before requesting a human check. Classify fixture/harness failures, infrastructure failures and product failures separately.",
+    "Keep evidence collection bounded to newly created receipts and changed ledgers; no recursive historic reharvest, duplicate script suite or per-step roadmap. Preserve original failures, accounting history, exact review, separate confirmation and independent verification."
+  ],
+  "capability_areas": [
+    {
+      "order": 1,
+      "name": "General conversation, knowledge, explanations, summarization, comparisons and research",
+      "blocks": [
+        "WB-02",
+        "WB-04"
+      ]
+    },
+    {
+      "order": 2,
+      "name": "Music/media search, playback, queues/playlists and supported streaming",
+      "blocks": [
+        "WB-05"
+      ]
+    },
+    {
+      "order": 3,
+      "name": "Messaging, contacts, permitted inbox use and supported calling",
+      "blocks": [
+        "WB-06"
+      ]
+    },
+    {
+      "order": 4,
+      "name": "Tasks, reminders/calendars, notes/documents/books and day/project planning",
+      "blocks": [
+        "WB-07"
+      ]
+    },
+    {
+      "order": 5,
+      "name": "Smart-home/environment controls and sensor/device readings",
+      "blocks": [
+        "WB-08"
+      ]
+    },
+    {
+      "order": 6,
+      "name": "Approved computer/software/development operations",
+      "blocks": [
+        "WB-09"
+      ]
+    },
+    {
+      "order": 7,
+      "name": "Current information, comparisons and explicitly configured monitoring",
+      "blocks": [
+        "WB-10"
+      ]
+    },
+    {
+      "order": 8,
+      "name": "Multi-step, cross-service user goals with progress and recovery",
+      "blocks": [
+        "WB-03",
+        "WB-11"
+      ]
+    }
+  ],
+  "work_blocks": [
+    {
+      "id": "WB-00",
+      "title": "Project workflow and evidence control",
+      "status": "ACCEPTED",
+      "priority": "P0",
+      "goal": "Maintain categorical assignment/master authority, one outcome-driven board and fail-closed requirement/evidence control; prevent repeated completed or misdirected tasks.",
+      "depends_on": [
+        "BASELINE"
+      ],
+      "acceptance": [
+        "Plan and machine-readable board agree; dependencies and IDs validate.",
+        "The paused state, first task, current source, actual budgets and scoped evidence are explicit.",
+        "Existing history, runtime source and resource ledgers remain unchanged."
+      ],
+      "required_evidence": [
+        "Published plan/board, validation output, before snapshots and hash receipt"
+      ],
+      "requirement_ids": [
+        "R8",
+        "M01",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M08",
+        "M09",
+        "M11",
+        "M26",
+        "M27",
+        "M29",
+        "M34"
+      ],
+      "master_sections": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        26,
+        27,
+        29,
+        34
+      ],
+      "subblocks": [
+        {
+          "id": "WB-00.1",
+          "title": "Publish stable work IDs, board, acceptance gates and evidence index",
+          "status": "ACCEPTED"
+        },
+        {
+          "id": "WB-00.2",
+          "title": "Adopt work-ID tagging, status transitions and immutable closure records",
+          "status": "ACCEPTED"
+        },
+        {
+          "id": "WB-00.3",
+          "title": "Requirement-level fail-closed acceptance and adversarial checks",
+          "status": "ACCEPTED"
+        }
+      ]
+    },
+    {
+      "id": "WB-01",
+      "title": "Reliable normal-assistant execution and recovery",
+      "status": "PARTIAL",
+      "priority": "P0",
+      "goal": "A recoverable failure must not destroy the next valid interaction or trigger an unconfirmed effect.",
+      "depends_on": [
+        "WB-00"
+      ],
+      "acceptance": [
+        "One truthful notice for known rejected decisions; no repair, automatic retry, tool dispatch or action.",
+        "Next direct user request works on the same session where recovery is supported.",
+        "Quota/authentication/security and unexpected faults retain appropriate fail-closed handling.",
+        "No stale reply/effect, duplicate action, budget bypass or owned orphan process."
+      ],
+      "required_evidence": [
+        "Identical regression cases RED then GREEN, focused tests, relevant Pi/Windows regressions and scoped runtime evidence"
+      ],
+      "requirement_ids": [],
+      "master_sections": [],
+      "subblocks": [
+        {
+          "id": "WB-01.1",
+          "title": "Recover from known invalid JSON decisions without retry or effects",
+          "status": "ACCEPTED"
+        },
+        {
+          "id": "WB-01.2",
+          "title": "Verify timeout/provider/tool failure recovery, cancellation and stale-generation suppression",
+          "status": "ACCEPTED"
+        },
+        {
+          "id": "WB-01.3",
+          "title": "Verify request/token admission and bounded multi-round calls against actual provider limits",
+          "status": "ACCEPTED"
+        },
+        {
+          "id": "WB-01.4",
+          "title": "Verify understandable startup errors, cancellation and clean teardown",
+          "status": "ACCEPTED"
+        }
+      ]
+    },
+    {
+      "id": "WB-02",
+      "title": "Natural conversation and full-duplex interaction",
+      "status": "PARTIAL",
+      "priority": "P0",
+      "goal": "Understand freely expressed conversation and unfamiliar user requests while the user participates naturally during listening, reasoning and speech; support contextual follow-ups, corrections and replacements without a fixed spoken-command catalogue.",
+      "depends_on": [
+        "WB-01"
+      ],
+      "acceptance": [
+        "Natural pause handling: A pause or continuation keeps the user floor and input without prematurely completing or losing the request.",
+        "Appropriate acknowledgment handling: A genuine brief acknowledgment can suspend/resume the current response; stop, replacement and direct action confirmation are not mistaken for acknowledgments.",
+        "Interruption while speaking: Capture continues during output; a genuine takeover audibly stops obsolete playback and allows the new request.",
+        "Replacement of an existing request: The latest user replacement supersedes the remaining old request without repeating obsolete speech or dispatching abandoned steps.",
+        "Cancellation or invalidation of obsolete work: Cancel or generation-invalidate pending ASR/reasoning/tools/TTS and queued output; stale results cannot speak, execute or grant permission.",
+        "Correct treatment of already committed external actions: Cancel uncommitted work, reconcile and report committed/uncertain effects; never claim they were undone or repeat them. No new shopping write is permitted by the remaining allowance.",
+        "Context preservation and recovery: Recognized input, delivered/partial reply and relevant task state support correction/follow-up and safe recovery. Missing or over-limit audio is explicit, never invented.",
+        "Current-candidate capability coverage includes ordinary Q&A, follow-up, correction/topic change, pause, promptness, hesitation, acknowledgment, audible interruption, replacement/no replay, split and timeout recovery, clarification, confirmation boundary, read-only verification, dynamic tools and clean shutdown. Use freely worded inputs and held-out user-chosen requests; exact scripted utterances remain regression cases only.",
+        "Operator actually hears the required speech/stop/resumption; events corroborate it.",
+        "Do not treat a software callback as physical acoustic onset or assume a TTS RPC proves audible speech.",
+        "Reuse old evidence only with documented relevant-code and condition equivalence; no threshold/model change simply to force a pass."
+      ],
+      "required_evidence": [
+        "Outcome-level criteria, minimal targeted live interactions for unresolved speech behavior, operator reports, unseen user-chosen requests for generalization, exact source/config/audio setup, timing boundaries and current coverage matrix. Reuse unchanged relevant evidence with documented equivalence; do not automatically replay full scripts.",
+        "Seven-behavior full-duplex matrix: exact source/config/audio, unchanged-code equivalence for historical evidence, current deterministic cancel/confirmation/commit checks and essential actual natural voice/operator observations. Fixture or transcript-only PASS does not accept physical pause/ack/interrupt/recovery. Natural user-selected content; no prescribed phrases or sequential script."
+      ],
+      "requirement_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "M16",
+        "M23",
+        "M25",
+        "M32"
+      ],
+      "master_sections": [
+        16,
+        23,
+        25,
+        32
+      ],
+      "subblocks": [
+        {
+          "id": "WB-02.1",
+          "title": "Open explanations, context, corrections, hesitation, topic changes and spoken numbers",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-02.2",
+          "title": "Natural pause/continuation, split and empty-segment recovery, appropriate backchannels",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-02.3",
+          "title": "Audible interruption, brief Okay/resumption, replacement intent and no obsolete replay",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-02.4",
+          "title": "Promptness and clear continuous speech on the declared speaker/earphone setup",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-02.5",
+          "title": "Retain published historical 16-scenario coverage map and its limits",
+          "status": "ACCEPTED"
+        },
+        {
+          "id": "WB-02.6",
+          "title": "Distinguish directed interruption, longer backchannels and unrelated/background speech",
+          "status": "PLANNED"
+        }
+      ]
+    },
+    {
+      "id": "WB-03",
+      "title": "General-purpose goal reasoning, shared context and durable execution",
+      "status": "PARTIAL",
+      "priority": "P0",
+      "goal": "Full Onit is the adopted sole planner. Use natural user goals, shared voice/text context, discovered guarded tools and independently verified results; qualify remaining generalization, mixed-service execution and durable recovery without a competing legacy planner.",
+      "depends_on": [
+        "WB-01"
+      ],
+      "acceptance": [
+        "Intent interpretation is model/schema-driven, not a fixed voice-phrase catalogue.",
+        "Every plan validates before its first effect; each consequential effect has a delivered proposal, required direct authorization and independent verification.",
+        "Replacement abandons unexecuted obsolete work; completed effects are reported accurately and not falsely undone.",
+        "At least one broader goal combines different services and reports successful, failed and unstarted steps.",
+        "Ordinary users need not choose a provider for each request; an explicit approved policy governs routing, privacy, quotas and visible diagnostics. No silent provider switching.",
+        "Normal use has an owner-approved bounded operating profile, separate from test harness grants and unchanged benchmark accounting. No unlimited hidden calls.",
+        "Qualify generalization with held-out user-chosen goals and varied wording across available tools; distinguish new goals, follow-ups, corrections, replacements and status questions. A fixed list of known prompts or per-prompt handlers is insufficient.",
+        "Shared voice/text conversation AND task context is actually exercised across interface changes; two interfaces using similar routers alone are insufficient.",
+        "A real longer task preserves progress beyond the spoken response, supports correction/cancel and truthful completion/partial-state reporting.",
+        "For an absent integration, inspect actual capabilities, enable/test the shortest feasible authorized route, and request only indispensable account/device/user-authentication prerequisites. Do not stop at a proposal when in-scope implementation is possible."
+      ],
+      "required_evidence": [
+        "Actual discovered schemas, controller tests, live cross-service journal/readbacks, GUI workflow, operating policy and current capability registry",
+        "Onit integration gateway contracts, full actual-tool goal outcomes, correction/recovery, request/token/latency records and evidence-based adoption/legacy-retirement decision."
+      ],
+      "requirement_ids": [
+        "R5",
+        "R6",
+        "M02",
+        "M15",
+        "M16",
+        "M18",
+        "M20",
+        "M22",
+        "M23",
+        "M31"
+      ],
+      "master_sections": [
+        2,
+        15,
+        16,
+        18,
+        20,
+        22,
+        23,
+        31
+      ],
+      "subblocks": [
+        {
+          "id": "WB-03.1",
+          "title": "Dynamic discovery, actual schema validation, identity resolution and prerequisite reads",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-03.2",
+          "title": "Cross-service ordered goals, progress, separate confirmations and verification",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-03.3",
+          "title": "Replacement/cancel, partial completion, uncertain outcomes and duplicate suppression",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-03.4",
+          "title": "Integration onboarding and honest capability-gap handling",
+          "status": "PLANNED"
+        },
+        {
+          "id": "WB-03.5",
+          "title": "Normal GUI operating profiles and approved provider/routing policy, without test-specific enable scripts",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-03.6",
+          "title": "Free-form unfamiliar goals and adaptive planning with actual tools",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-03.7",
+          "title": "Shared conversation and task context across voice/text handoffs",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-03.8",
+          "title": "Durable multi-step work, progress, continuation and cancellation",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-03.9",
+          "title": "Onit sole-planner adapter and actual-model compatibility",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-03.10",
+          "title": "Guarded MCP execution, verification and action recovery",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-03.11",
+          "title": "Shared voice/text task context, interruption and recovery",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-03.12",
+          "title": "Complete unfamiliar goals: verified outcomes, latency and request cost",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-03.13",
+          "title": "Gated adoption and retirement of the legacy planner",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-03.14",
+          "title": "Full Onit capability through the normal Pi voice/text assistant",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-03.15",
+          "title": "Supervised Onit collaboration for project engineering",
+          "status": "PARTIAL"
+        }
+      ]
+    },
+    {
+      "id": "WB-04",
+      "title": "General knowledge, explanations and research",
+      "status": "PARTIAL",
+      "priority": "P1",
+      "goal": "Answer, explain, summarize, compare and reason across engineering, programming, study and everyday topics.",
+      "depends_on": [
+        "WB-03"
+      ],
+      "acceptance": [
+        "Representative requests in the stated topic areas work without domain-specific voice commands.",
+        "Time-sensitive claims use an available retrieval tool when needed, with source/date and uncertainty.",
+        "Summaries and comparisons preserve the supplied evidence; no invented research or source access.",
+        "Actual supported browser/web-application tasks work where authorized and accessible; source retrieval alone does not establish application control."
+      ],
+      "required_evidence": [
+        "Representative live/typed conversations, actual retrieval requests/results and source-grounded responses"
+      ],
+      "requirement_ids": [
+        "R6",
+        "M19",
+        "M21",
+        "M22"
+      ],
+      "master_sections": [
+        19,
+        21,
+        22
+      ],
+      "subblocks": [
+        {
+          "id": "WB-04.1",
+          "title": "Qualify diverse open-ended conversation and contextual follow-ups",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-04.2",
+          "title": "Integrate an actual current-information retrieval/search source where needed",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-04.3",
+          "title": "Ground summaries/comparisons in retrieved or user-provided material",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-04.4",
+          "title": "Authorized browser and web-application interactions with verified outcomes",
+          "status": "PARTIAL"
+        }
+      ]
+    },
+    {
+      "id": "WB-05",
+      "title": "Music and media",
+      "status": "ACCEPTED",
+      "priority": "P1",
+      "goal": "Operate real local media and supported streaming services from user intent.",
+      "depends_on": [
+        "WB-03"
+      ],
+      "acceptance": [
+        "Local media requests resolve real library identities and operate the actual player.",
+        "Search, queue/playlist and skip/stop behavior is either verified or explicitly remains pending; GUI Stop is not silently counted as every voice command.",
+        "Streaming actions require a supported actual service/account and permissions. The Spotify deferral remains visible, never counted as a pass.",
+        "Explicitly assess Spotify, YouTube and local-player routes where relevant/authorized. Preserve the user Spotify deferral; one local playback result does not establish all streaming functions.",
+        "Understand new naturally worded music/video requests through the existing ASR, conversation context and general tool selection; examples are illustrative, not a phrase whitelist.",
+        "Search the explicitly requested local library or configured service. If no source is specified, use the configured preference/context or clarify a meaningful ambiguity.",
+        "Use a real search result identity/title/artist and supported player; never invent a video ID, claim playback from a link alone, or require the user to find/type a URL for an ordinary title/artist request.",
+        "Verify actual player state and obtain live audible evidence; maintain coherent spoken replies, displayed task progress and voice control during playback.",
+        "Pause/resume, volume, track replacement and short music-stop requests act on the current source. Music Stop and conversation Goodbye remain distinct.",
+        "Cancel obsolete searches before effects where possible, preserve already committed actions and unresolved outcomes, and never replay an uncertain effect automatically.",
+        "Report unavailable integration/setup, ambiguous results or a service failure accurately; preserve counters/evidence and stop the live check on its first failure."
+      ],
+      "required_evidence": [
+        "Catalog/player state, real controls, audible results, queue transitions and separate confirmation/verification records"
+      ],
+      "requirement_ids": [
+        "M21"
+      ],
+      "master_sections": [
+        21
+      ],
+      "subblocks": [
+        {
+          "id": "WB-05.1",
+          "title": "Retain verified playback, pause/resume/volume and clean Stop",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-05.2",
+          "title": "Complete and verify title/artist/library search, playlists, queues, skip and stop controls",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-05.3",
+          "title": "Handle unavailable/ambiguous tracks, end-of-track and player recovery",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-05.4",
+          "title": "Voice search and verified playback from a supported external music source",
+          "status": "VERIFIED_SCOPED"
+        }
+      ]
+    },
+    {
+      "id": "WB-06",
+      "title": "Messaging and communication",
+      "status": "ACCEPTED",
+      "priority": "P1",
+      "goal": "Draft/review and execute permitted communication through a real supported service.",
+      "depends_on": [
+        "WB-03"
+      ],
+      "acceptance": [
+        "Every message and call requires a fresh explicit user command, exact verified recipient/channel review and direct confirmation before dispatch; every message review includes exact text. Contact searches require a specific explicit commanded/authorized query and are never proactive.",
+        "Only the authorized message is sent; interruption before dispatch cancels obsolete content.",
+        "Accepted/sent/delivered/read statuses are distinguished according to real service evidence.",
+        "No simulated send/call, credential disclosure or unsolicited external communication.",
+        "Record feasibility/access for Viber, Telegram, Messenger, email and supported calling where relevant. Select actual supported routes based on the user goal; no requirement to install every named app regardless of necessity, and no unavailable service marked PASS."
+      ],
+      "required_evidence": [
+        "Service capability/permissions, exact authorized test action, actual API/MCP result and independent status evidence"
+      ],
+      "requirement_ids": [
+        "M21"
+      ],
+      "master_sections": [
+        21
+      ],
+      "subblocks": [
+        {
+          "id": "WB-06.1",
+          "title": "Select a genuinely supported messaging/calling service and test contact",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-06.2",
+          "title": "Contacts, drafts, message review, permitted inbox reading/summaries",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-06.3",
+          "title": "Authorized send with verified status and interruption/cancel boundaries",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-06.4",
+          "title": "Call initiation where the selected platform exposes a supported route",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-06.5",
+          "title": "Gmail: commanded mail lookup/read/draft and separately confirmed sending",
+          "status": "VERIFIED_SCOPED"
+        }
+      ]
+    },
+    {
+      "id": "WB-07",
+      "title": "Productivity, alarms, calendars and documents",
+      "status": "IN_PROGRESS",
+      "priority": "P1",
+      "goal": "Manage tasks, schedules, notes/books and day/project priorities with persistent verified state.",
+      "depends_on": [
+        "WB-03"
+      ],
+      "acceptance": [
+        "Supported create/update/schedule/cancel operations persist and independently read back.",
+        "An alarm can notify the user under the declared normal listening setup; chime must not create false user turns or corrupt speech ownership.",
+        "Calendar/notes/document operations use a real local facility or supported connected application.",
+        "Exact reading preserves source text; summaries are identified as summaries; missing/extraction failures are honest.",
+        "Current-state/day/project summaries use actual records, not invented background work."
+      ],
+      "required_evidence": [
+        "Persistent stores/app state, exact passage comparisons, due events, audible alert evidence and representative combined productivity requests"
+      ],
+      "requirement_ids": [
+        "M21"
+      ],
+      "master_sections": [
+        21
+      ],
+      "subblocks": [
+        {
+          "id": "WB-07.1",
+          "title": "Complete task-list create/update/retrieve behavior and verification",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-07.2",
+          "title": "Resolve and validate audible alarm delivery while voice mode remains active",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-07.3",
+          "title": "Reminders, calendar events, timezone/due handling, cancel and restart persistence",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-07.4",
+          "title": "Notes/document/book search, exact reading, summaries and responsive cancellation",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-07.5",
+          "title": "Project-progress summaries and day planning from actual saved records",
+          "status": "IN_PROGRESS"
+        },
+        {
+          "id": "WB-07.6",
+          "title": "Primary Google Calendar for the selected owner account",
+          "status": "ACCEPTED"
+        }
+      ]
+    },
+    {
+      "id": "WB-08",
+      "title": "Smart-home and environmental control",
+      "status": "DEFERRED_BY_USER",
+      "priority": "P1",
+      "goal": "Control compatible lights/environment devices and read actual sensor/device state.",
+      "depends_on": [
+        "WB-03"
+      ],
+      "acceptance": [
+        "Real supported lights on/off and brightness plus available sensor/status operations are demonstrated.",
+        "Fan/thermostat controls are included where the selected hardware supports them.",
+        "Ambiguous rooms/devices clarify; replacements do not dispatch conflicting obsolete controls.",
+        "Device readback and operator physical observation are distinguished; offline fixtures do not qualify physical actuation."
+      ],
+      "required_evidence": [
+        "Device inventory/permissions, actual MCP schema, confirmed actions, independent device readback and physical observations"
+      ],
+      "requirement_ids": [
+        "M21"
+      ],
+      "master_sections": [
+        21
+      ],
+      "subblocks": [
+        {
+          "id": "WB-08.1",
+          "title": "Confirm available devices, bridge/API, identities and local access",
+          "status": "DEFERRED_BY_USER"
+        },
+        {
+          "id": "WB-08.2",
+          "title": "Implement and provider-free test discovered read/control tools",
+          "status": "DEFERRED_BY_USER"
+        },
+        {
+          "id": "WB-08.3",
+          "title": "Validate physical controls, authoritative state and multi-device correction/routines",
+          "status": "DEFERRED_BY_USER"
+        }
+      ]
+    },
+    {
+      "id": "WB-09",
+      "title": "Computer, software and development tasks",
+      "status": "PARTIAL",
+      "priority": "P0",
+      "goal": "Create and modify usable artifacts, inspect and repair unfamiliar projects, run bounded builds/tests/dependencies/local services, iterate from actual results and deliver verified outcomes through reusable tools.",
+      "depends_on": [
+        "WB-03"
+      ],
+      "acceptance": [
+        "The Pi assistant itself discovers/selects actual tools from free-form goals, creates an executable artifact and iterates on real execution/test results.",
+        "A multi-file website/application is run and functionally checked; an unfamiliar existing project is inspected/repaired with failing-to-passing and regression evidence.",
+        "Provide reusable file/build/test/dependency/runtime/local-service capabilities within explicit paths, schemas, timeouts and resource policy. A fixed command catalogue is an execution safeguard, not the product capability ceiling.",
+        "Never concatenate arbitrary model text into a shell. Preserve unrelated data and require applicable authorization for consequential, destructive, external or privileged effects.",
+        "Fresh independent file/test/runtime/health observations verify outcomes. Deliver real artifacts and accurate run instructions; label limitations and partial completion."
+      ],
+      "required_evidence": [
+        "Exact-candidate real-model/MCP tool journals, executable artifact, multi-file app functional run, unfamiliar-project before/failure/fix/regressions, bounded dependency/build/service lifecycle, independent checks and artifact delivery paths; preserve historical scoped WB-09.2."
+      ],
+      "requirement_ids": [
+        "R6",
+        "M17",
+        "M18",
+        "M19",
+        "M21",
+        "M31",
+        "M34"
+      ],
+      "master_sections": [
+        17,
+        18,
+        19,
+        21,
+        31,
+        34
+      ],
+      "subblocks": [
+        {
+          "id": "WB-09.1",
+          "title": "Add bounded log/file/service-health and database read tools",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-09.2",
+          "title": "Approved script/command catalogue with validated arguments, paths and timeouts",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-09.3",
+          "title": "Authorized corrective action/service restart and independent health verification",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-09.4",
+          "title": "Create, launch, functionally check and deliver a multi-file website/application",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-09.5",
+          "title": "Inspect and repair an unfamiliar existing project with regression evidence",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-09.6",
+          "title": "Reusable bounded builds, dependencies, runtimes and local services",
+          "status": "VERIFIED_SCOPED"
+        }
+      ]
+    },
+    {
+      "id": "WB-10",
+      "title": "Information retrieval and configured monitoring",
+      "status": "PARTIAL",
+      "priority": "P1",
+      "goal": "Retrieve current connected data, compare states and notify under a configured monitoring policy.",
+      "depends_on": [
+        "WB-03"
+      ],
+      "acceptance": [
+        "Results identify real source/time and separate unavailable or stale data from current observations.",
+        "Comparisons use a genuine saved baseline and compatible units.",
+        "Monitoring starts only when requested/configured, with bounded cadence, lifetime, resource policy and notification destination.",
+        "No unconfigured background promises, silent watchers or unauthorized external notifications."
+      ],
+      "required_evidence": [
+        "Actual service queries, baseline/change records, configured monitor lifecycle and verified notification/stop evidence"
+      ],
+      "requirement_ids": [
+        "M21"
+      ],
+      "master_sections": [
+        21
+      ],
+      "subblocks": [
+        {
+          "id": "WB-10.1",
+          "title": "Connect current service/device records with timestamps and provenance",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-10.2",
+          "title": "Compare real baselines, units, changes and unavailable/stale data",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-10.3",
+          "title": "Explicitly configured bounded polling/notifications and clean stop/restart",
+          "status": "VERIFIED_SCOPED"
+        }
+      ]
+    },
+    {
+      "id": "WB-11",
+      "title": "Integrated functional qualification across the supported scope",
+      "status": "VERIFIED_SCOPED",
+      "priority": "P0",
+      "goal": "Demonstrate reusable general-purpose goal understanding and task completion on previously unseen user-chosen requests, integrated with natural voice and GUI/text.",
+      "depends_on": [
+        "WB-01",
+        "WB-02",
+        "WB-03",
+        "WB-04",
+        "WB-08",
+        "WB-05",
+        "WB-06",
+        "WB-07",
+        "WB-09",
+        "WB-10"
+      ],
+      "acceptance": [
+        "Representative available tasks cover all eight agreed areas, with prerequisites resolved or an explicit user-approved scope amendment recorded.",
+        "Ordinary conversation, follow-up, pause, acknowledgment, interruption and tool execution work together.",
+        "Real mixed-service goals track progress, clarify missing data, protect confirmation boundaries and report partial outcomes.",
+        "No required integration or failed criterion is silently removed from the denominator; no fixture-only full qualification.",
+        "Generalization evidence uses user-chosen unfamiliar requests and context changes separate from implementation/regression examples. Expected outcomes may be preregistered without prescribing exact user utterances.",
+        "Coverage explicitly includes multi-file artifact execution, unfamiliar-project repair, durable task progress, shared voice/text context and real accessible integrations. Existing small demos cannot stand for these outcomes."
+      ],
+      "required_evidence": [
+        "Integrated qualification matrix, goal-level expected outcomes and held-out request identities, actual operator observations, real tool journals/readbacks and protected-state receipts; historical fixed scripts remain scoped regressions only."
+      ],
+      "requirement_ids": [
+        "R5",
+        "R6",
+        "M02",
+        "M12",
+        "M31",
+        "M33"
+      ],
+      "master_sections": [
+        2,
+        12,
+        31,
+        33
+      ],
+      "subblocks": [
+        {
+          "id": "WB-11.1",
+          "title": "Reconcile requirement-to-evidence matrix with exact revision/configuration lineage",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-11.2",
+          "title": "Run minimum targeted live/typed mixed-domain goals and recovery/redirect cases",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-11.3",
+          "title": "Close essential failures and record all capability/measurement limitations",
+          "status": "VERIFIED_SCOPED"
+        }
+      ]
+    },
+    {
+      "id": "WB-12",
+      "title": "Qualified freeze and reproducibility",
+      "status": "VERIFIED_SCOPED",
+      "priority": "P0",
+      "goal": "Preserve exactly what passed and make it reproducible on the Pi.",
+      "depends_on": [
+        "WB-11"
+      ],
+      "acceptance": [
+        "Essential functional gate passes before accepted freeze.",
+        "Exact source-manifest digest, deployed source, model/config/dependency/launcher identities reconcile.",
+        "Startup/shutdown, original data integrity and authorized task mutations are accounted for; no owned orphan processes.",
+        "Archives contain no secrets; a reproducibility/restore check verifies the required artifacts."
+      ],
+      "required_evidence": [
+        "Regression receipts, source/config/model manifest, immutable archive/hash, deployment/restore instructions and requirement matrix"
+      ],
+      "requirement_ids": [
+        "R1",
+        "R8",
+        "M13",
+        "M14",
+        "M30"
+      ],
+      "master_sections": [
+        13,
+        14,
+        30
+      ],
+      "subblocks": [
+        {
+          "id": "WB-12.1",
+          "title": "Run required exact-candidate Pi/Windows regressions and startup/stop checks",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-12.2",
+          "title": "Verify launchers, dependencies, configuration, model/native hashes and protected data",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-12.3",
+          "title": "Create immutable qualified source/config/evidence receipt and restore procedure",
+          "status": "VERIFIED_SCOPED"
+        }
+      ]
+    },
+    {
+      "id": "WB-13",
+      "title": "Standardized evaluation and final benchmark",
+      "status": "PARTIAL",
+      "priority": "P0",
+      "goal": "Preserve historical measurements and perform only justified, authorized current-candidate evaluation using the applicable course method, without inventing missing data or repeating a benchmark for context.",
+      "depends_on": [
+        "WB-12"
+      ],
+      "acceptance": [
+        "Functional gate and immutable freeze precede final collection; operator and sufficient separately reconciled allowance are ready.",
+        "Preserve every historical 31-trial identity and its original revision. For any justified new evaluation, preserve every preregistered identity including failures/cancellations/timeouts/unstarted cases; establish its sample plan from the applicable method, not an automatic replay.",
+        "Report model/backend, actual usage, software/acoustic boundaries, denominators, missing responses and supported sample statistics.",
+        "Report the pinned agreed method metrics, actual denominators, uncertainty and supported scoring configuration. Missing required results remain incomplete; optional unavailable features are NOT_SCORED, never zero or PASS. Separate historical additional metrics retain their stated scope.",
+        "No general speedup claim from unmatched cohorts; no repeated full benchmark merely to overwrite a failure. A changed candidate must be requalified before a new cohort.",
+        "A new full benchmark needs an assignment requirement, meaningful candidate change or explicit evaluation plan, plus qualification/resource/readiness gates. Historical completion alone never triggers a rerun; future sample counts and missing rubric details are not invented."
+      ],
+      "required_evidence": [
+        "Protocol/source binding, complete trial ledger, raw metadata, analysis, denominator/missingness tables, resource receipt and explicit limitations"
+      ],
+      "requirement_ids": [
+        "R7",
+        "M24",
+        "M25",
+        "M33"
+      ],
+      "master_sections": [
+        24,
+        25,
+        33
+      ],
+      "subblocks": [
+        {
+          "id": "WB-13.1",
+          "title": "Confirm the existing class protocol, stimuli, scoring, boundaries, stopping rules and exact resource fit",
+          "status": "VERIFIED_SCOPED"
+        },
+        {
+          "id": "WB-13.2",
+          "title": "Execute justified, separately authorized fixed-candidate evaluation under the applicable protocol",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-13.3",
+          "title": "Analyze agreed turn-taking/false/missed rates, timing, denominators and uncertainty",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-13.4",
+          "title": "Interruption relevance/behavior judging and available before/after voice analysis",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-13.5",
+          "title": "Benchmark-only transport bridge to the actual normal Onit assistant",
+          "status": "VERIFIED_SCOPED"
+        }
+      ]
+    },
+    {
+      "id": "WB-14",
+      "title": "Documentation, model suitability and student handover",
+      "status": "PARTIAL",
+      "priority": "P1",
+      "goal": "Explain and reproduce the actual implementation and measured scope.",
+      "depends_on": [
+        "WB-00"
+      ],
+      "acceptance": [
+        "Docs explain local versus hosted processing, MCP ownership, intent/tool execution, cancellation and verification from actual code.",
+        "Model suitability addresses quality, naturalness, latency, streaming/interruption, Pi constraints, language/accent and cost without unsupported global SOTA claims.",
+        "Instructions cover normal use, approved operating budgets, adding integrations, recovery and reproducible setup.",
+        "Defense preparation proceeds alongside engineering; student quizzes never gate implementation. Student understanding is not inferred from test success."
+      ],
+      "required_evidence": [
+        "Updated project records, technical/operator documents, model evidence, demonstration script and concise defense notes"
+      ],
+      "requirement_ids": [
+        "R2",
+        "R3",
+        "R8",
+        "R9",
+        "M07",
+        "M28",
+        "M35"
+      ],
+      "master_sections": [
+        7,
+        28,
+        35
+      ],
+      "subblocks": [
+        {
+          "id": "WB-14.1",
+          "title": "Maintain six project records, capability matrix and evidence index throughout work",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-14.2",
+          "title": "Update architecture/setup/GUI operations, security boundaries and model suitability",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-14.3",
+          "title": "Prepare concise evidence-based demonstration and oral-defense notes",
+          "status": "PARTIAL"
+        },
+        {
+          "id": "WB-14.4",
+          "title": "Complete final handover after freeze/evaluation; disclose remaining limits",
+          "status": "PLANNED"
+        }
+      ]
+    },
+    {
+      "id": "WB-15",
+      "title": "Completion review and transition to normal operation",
+      "status": "PLANNED",
+      "priority": "P0",
+      "goal": "Close the agreed project goals with honest scope, usable operation and defensible evidence.",
+      "depends_on": [
+        "WB-11",
+        "WB-12",
+        "WB-13",
+        "WB-14"
+      ],
+      "acceptance": [
+        "All agreed required capabilities have appropriate current evidence or an explicitly approved scope disposition.",
+        "Required unresolved failures/prerequisites prevent an unqualified 100% claim; deferred work is never labelled passed.",
+        "The assistant can be used normally for stated supported conversations/tasks without per-test setup scripts.",
+        "Evaluation results and unavailable metrics are disclosed under the agreed completion standard; no grade guarantee.",
+        "100/100 is the completion ambition, not a score inferred from tests, subblock counts or documentation. No removed denominator, hidden deferral or lowered criterion may manufacture full completion; the professor awards any grade."
+      ],
+      "required_evidence": [
+        "Final requirement checklist, accepted candidate/evaluation/handover links, open-items disposition and normal operating instructions"
+      ],
+      "requirement_ids": [
+        "M10"
+      ],
+      "master_sections": [
+        10
+      ],
+      "subblocks": [
+        {
+          "id": "WB-15.1",
+          "title": "Review each requirement and required work-block exit criterion",
+          "status": "PLANNED"
+        },
+        {
+          "id": "WB-15.2",
+          "title": "Confirm usable ordinary GUI/voice operation under an explicit operating policy",
+          "status": "PLANNED"
+        },
+        {
+          "id": "WB-15.3",
+          "title": "Issue final acceptance/remaining-gap report and archive project handover",
+          "status": "PLANNED"
+        }
+      ]
+    }
+  ],
+  "finalization_program": {
+    "active_phase": "F7",
+    "status": "IN_PROGRESS_F7",
+    "phases": [
+      {
+        "id": "F1",
+        "name": "Natural speech and conversational presentation",
+        "blocks": [
+          "WB-02.4",
+          "WB-03.14"
+        ],
+        "work": "Piper-first refinement under WB-02.4: improve contextual wording and phrase continuity; tune the current voice conservatively; consider one female Piper alternative only if a demonstrated gap remains. Pursue actual useful-answer latency alongside speech quality. Keep Onit/Pipecat/on-Pi VAD/student speech MCP and existing task/confirmation controls. Kokoro and automatic fixed acknowledgments are excluded. Follow piper_refinement314 steps and adoption gates; no new workstream or provider search.",
+        "exit": "Each claimed benefit has exact-source focused evidence and, for acoustic behavior, an owner listening comparison. Preserve complete requested content, meaningful review details, female English/Spanish voice continuity, interruption/resume, context, task outcomes and Pi resource safety. Earlier useful speech must use a separately qualified immutable validated-prefix protocol; cue audio is not substantive-answer latency. Keep F1 open while naturalness or actual timing criteria remain unsupported; unchanged accepted integrations are reused.",
+        "status": "PARTIAL"
+      },
+      {
+        "id": "F2",
+        "name": "Pause, directed speech and overlap behavior",
+        "blocks": [
+          "WB-02.1",
+          "WB-02.2",
+          "WB-02.3",
+          "WB-02.6"
+        ],
+        "work": "Preserve continuous listening through reasoning, speech and permitted task execution. Use general semantic/contextual interpretation for genuine interruption, listening acknowledgment, incomplete pause and speech directed elsewhere. Preserve provisional local suspension, same-answer resume, current-generation adoption and obsolete-output cancellation. Avoid phrase-list intent routing, duration-only meaning decisions and blind VAD stop-on-every-sound behavior.",
+        "exit": "Held-out development cases and the relevant owner exchange show appropriate pause/ignore/resume/clarification, coherent replacement and continued conversation. Current generation owns every ASR/result/audio frame; no clipped stale output or task effect is accepted. Define and later measure false/missed interruptions, premature floor takeover, acknowledgment continuation and actual output cessation separately from software cancel. Do not tune on final benchmark clips.",
+        "status": "PARTIAL"
+      },
+      {
+        "id": "F3",
+        "name": "Finish remaining functional gaps",
+        "blocks": [
+          "WB-01",
+          "WB-03.7",
+          "WB-03.8",
+          "WB-04",
+          "WB-07.3",
+          "WB-07.4",
+          "WB-07.5",
+          "WB-09",
+          "WB-10"
+        ],
+        "work": "Complete recorded functional gaps through reusable Onit tools: mixed-topic voice/text task flow and return to earlier context, useful app revision, calendar readback/cancel/persistence/day planning and document criteria. Qualify command-initiated background work with explicit job state and return to conversation; started is distinct from finished. Preserve draft/recipient context without restoring authority from history. Durable continuation must cover actual interruption/timeout boundaries; broader restart claims need separate proof. Reuse accepted integrations, and keep WB08 deferred. Owner298 now prioritizes additive primary Google Calendar integration for the named account under WB-07.6; preserve local calendar and exact review/confirmation. Automatic bidirectional synchronization remains deferred.",
+        "exit": "Required remaining outcomes are verified or explicitly dispositioned without counting partial/deferred work as passed. A new goal may be handled while a permitted background job continues only under explicit bounded ownership, cancellation and status rules. No speculative effect, duplicate send/call, stale confirmation or unsupported completion claim. No replay of accepted task/chime/media/mail/communication checks merely to regenerate evidence.",
+        "status": "PARTIAL"
+      },
+      {
+        "id": "F4",
+        "name": "Benchmark bridge and method preparation",
+        "blocks": [
+          "WB-13.5",
+          "WB-13.1"
+        ],
+        "work": "Connect the real normal Onit/ASR/MCP/TTS pipeline to a benchmark-only digital transport. Preserve buffering, generation fences, suspend/resume, clear-on-cancel and greeting readiness. Pin course commit, audio conversion/packetization, dataset identity, seed/rounds/reset, transcription/judge/optional voice analysis, safe grants, recording and stop policy. Define and freeze the explicit timestamp, eligibility, matching and denominator contract in docs/measurement_protocol.md, distinguishing pinned-course scores from supplemental ME3 functional measures. Preparation must preserve and instrument the final qualified natural-conversation path, including any newly adopted delivery protocol. Identify end of user speech, VAD/endpoint, ASR final, native-ready, provider dispatch/first text, validated speech commit, TTS request/first PCM and digital playout/last speech on defined clocks. Rebase the inactive bridge after runtime changes; current fixtures do not qualify a different candidate.",
+        "exit": "Reviewed offline adapter/cleanup/audio conversion checks pass without changing the normal Pi microphone/speaker route. Same agent and configuration lineage are explicit. Published method/prompt discrepancy is resolved with course authority or frozen and disclosed. No benchmark trial or scoring call is authorized by plan preparation. Every required metric has frozen operational definitions, labels, thresholds, clocks/alignment, missingness, scoring and uncertainty rules. Software cancellation and digital last-speech output must not be reported as physical audible cessation. Supplemental task/recovery/concurrency criteria need actual functional qualification; definitions alone are not implementation. Development timing diagnosis is not final benchmark collection. Do not equate SSE bytes, filler, TTS completion, buffer submission or software cancellation with meaningful first audible response or physical cessation. Keep official course metrics separate from supplemental task/recovery/concurrency criteria.",
+        "status": "VERIFIED_SCOPED"
+      },
+      {
+        "id": "F5",
+        "name": "Integrated functional qualification",
+        "blocks": [
+          "WB-11"
+        ],
+        "work": "Use a minimum targeted set of new mixed-domain goals and recovery/redirect cases for changed paths and unresolved criteria; distinguish task completion, speech quality and authorization. Reuse valid prior scoped evidence rather than repeat accepted integration batteries. Qualify the chosen natural-duplex and task-delivery changes together in a minimum owner-chosen mixed-topic interaction, preserving earlier context, a relevant interruption and supported task outcomes without resending or redialing consumed actions.",
+        "exit": "Essential supported-scope criteria pass with exact source/configuration lineage and owner observations where needed. First live failure stops the packet; retain failed/unstarted outcomes. Unsupported/deferred scope remains visible.",
+        "status": "ACCEPTED"
+      },
+      {
+        "id": "F6",
+        "name": "Qualified freeze and reproducibility",
+        "blocks": [
+          "WB-12"
+        ],
+        "work": "Run necessary exact-candidate regressions and normal Pi startup/shutdown/restore checks; freeze source, benchmark adapter, prompt, models/voices, dependencies, audio/VAD/buffers, tool/grant policy and evaluation configuration. Build a secret-free archive and tested restore instructions without overwriting the working installation.",
+        "exit": "Immutable candidate/adapter/config manifests and reproducible supported operation are verified. Keep source-manifest hashes distinct from Git commits. Material later changes require affected-path requalification and a distinct frozen candidate before collection.",
+        "status": "ACCEPTED"
+      },
+      {
+        "id": "F7",
+        "name": "Authorized benchmark collection and analysis",
+        "blocks": [
+          "WB-13.2",
+          "WB-13.3",
+          "WB-13.4"
+        ],
+        "work": "After an explicit later go, qualified freeze, sufficient separately reconciled benchmark/scoring allowance and actual provider/operator readiness, run the pinned seeded suite. Retain every trial/unknown/failure/cancel/timeout and actual charges. Score and report the defined rates, timing, relevance/behavior and available voice features with uncertainty and missingness. Report the frozen precision/recall, false/missed interruption and premature-floor rates, backchannel continuation accuracy, response/stop latency distributions and eligible context/cancellation/task/recovery/concurrency outcomes, separately from official pinned-course scores.",
+        "exit": "Raw manifests/recordings and analysis identify the exact measured candidate and scorer. No silent retries, sample replacement, old31-trial transfer, benchmark budget borrowing or mid-run tuning. Missing optional analysis is NOT_SCORED; required missing metrics remain incomplete. A stopped cohort stays stopped and is not mixed with a changed candidate. Report eligible n and numerators/denominators, median/p95/distributions with declared small-sample limits, suitable uncertainty, and separate missing/unscored/timeout/canceled/unstarted outcomes. No favorable-only latency population, silent imputation or undocumented exclusion; unavailable physical/required metrics remain unmeasured/incomplete.",
+        "status": "PARTIAL"
+      },
+      {
+        "id": "F8",
+        "name": "Documentation, GitHub submission and completion",
+        "blocks": [
+          "WB-14",
+          "WB-15"
+        ],
+        "work": "Prepare the owner-requested three distinct layers: ME3_PRODUCT_REPORT.md, a coherent EngineeringHistory with reviewed REFERENCES originals, and the deployable package. Use actual final-candidate evidence and explicit limitations. Preserve private originals; withhold and disclose sensitive references rather than silently edit as-is copies. The requested repository is private me3-full-duplex; creation, final content/privacy review and publication remain pending. Existing F1-F8 order is unchanged.",
+        "exit": "Actual repository URL, verified commit/tag, measured-code manifest and sanitized report/evidence links are recorded. Setup is reproducible. Exclude credentials/OAuth/cookies, private chats/contacts/mail/vaults/databases, personal media, environments/caches and unlicensed raw datasets/recordings/model binaries. Documentation-only later commits preserve the measured-code identity. No public/private choice or upload occurs in this plan update."
+      }
+    ]
+  }
+}

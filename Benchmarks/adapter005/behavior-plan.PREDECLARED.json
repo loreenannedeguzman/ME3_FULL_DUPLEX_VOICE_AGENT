@@ -1,0 +1,108 @@
+{
+  "status": "EXPLICIT_NEW_BEHAVIOR_COHORT_NOT_RESUME",
+  "prior004_queue_sha256": "d1b635f07ae80ba2e8f1c52bcb4139d16b3872c5ec61db8326da7e3fc78a0e8b",
+  "prior004_collection_receipt_sha256": "c5c29f7f3074de0e22bbd810f2231e11d1bdbf9e2a87cba936f9e448406c2ffb",
+  "prior_statuses": [
+    "failed",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending",
+    "pending"
+  ],
+  "plan": {
+    "seed": 0,
+    "rounds": 1,
+    "phrases": 0,
+    "runs": 0,
+    "items": [
+      {
+        "index": 0,
+        "round": 1,
+        "group": "v1_interrupt",
+        "clip_id": "v1_interrupt_120",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 1,
+        "round": 1,
+        "group": "false_tt",
+        "clip_id": "false_side_talk_005",
+        "kind": "side_talk",
+        "status": "pending"
+      },
+      {
+        "index": 2,
+        "round": 1,
+        "group": "v15_talking_to_other",
+        "clip_id": "v15_talking_to_other_91",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 3,
+        "round": 1,
+        "group": "false_tt",
+        "clip_id": "false_tv_radio_005",
+        "kind": "tv_radio",
+        "status": "pending"
+      },
+      {
+        "index": 4,
+        "round": 1,
+        "group": "v1_pause_synth",
+        "clip_id": "v1_pause_synth_11",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 5,
+        "round": 1,
+        "group": "v15_background",
+        "clip_id": "v15_background_50",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 6,
+        "round": 1,
+        "group": "v1_turntaking",
+        "clip_id": "v1_turntaking_36",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 7,
+        "round": 1,
+        "group": "v15_interruption",
+        "clip_id": "v15_interruption_25",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 8,
+        "round": 1,
+        "group": "v15_backchannel",
+        "clip_id": "v15_backchannel_7",
+        "kind": null,
+        "status": "pending"
+      },
+      {
+        "index": 9,
+        "round": 1,
+        "group": "v1_pause_candor",
+        "clip_id": "v1_pause_candor_161",
+        "kind": null,
+        "status": "pending"
+      }
+    ]
+  },
+  "executions": 14,
+  "failed_prior_trial_retained": true,
+  "thirty_stage_trials_not_repeated": true
+}

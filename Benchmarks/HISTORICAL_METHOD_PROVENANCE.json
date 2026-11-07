@@ -1,0 +1,89 @@
+{
+  "status": "HISTORICAL_METHOD_ONLY_NOT_AN_EXECUTION_CONTRACT",
+  "execution_approved": false,
+  "source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
+  "raw_config_sha256": "f453aa19a3aa6392c91cc615ebde0bc7b68c16cd5979b808780f2c60c8a584de",
+  "course_commit": "57eaddbc188ce9a19b8fd002b575f703426956f4",
+  "original_private_contract_sha256": "0494e2928e1f6aabde7e2bb986cde77bad28fb3bbc19f728667c22d16b4f8fbb",
+  "plan": {
+    "rounds": 1,
+    "phrases": 10,
+    "runs": 3,
+    "seed": 0,
+    "max_seconds": 180,
+    "max_turns": 8,
+    "per_session": {
+      "asr": 16,
+      "reasoning": 16,
+      "tts": 64,
+      "commit_item": 0
+    },
+    "capacities": {
+      "rounds": 1,
+      "phrases": 10,
+      "runs": 3,
+      "stage_executions": 30,
+      "queue_items": 40,
+      "executions": 44,
+      "reservations": {
+        "asr": 704,
+        "reasoning": 704,
+        "tts": 2816,
+        "commit_item": 0
+      },
+      "local_scoring_transcriptions": 52,
+      "judge_requests": 5,
+      "judge_transport_attempts": 5,
+      "judge_retry_count": 0
+    }
+  },
+  "effects": [],
+  "judge": {
+    "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+    "provider": "gemini",
+    "model": "gemini-3.8-flash",
+    "scoring_config_sha256": "1c41493c99cf1b7cd7f0b7b9751bf22b5da40524499648018d02bcae209bef39",
+    "maximum_logical_requests": 5,
+    "maximum_HTTP_attempts": 5,
+    "prompt_scoring_changes": false,
+    "retries": 0,
+    "paper_comparable": false,
+    "available": false,
+    "enabled_this_cohort": false,
+    "this_cohort_maximum_logical_requests": 0,
+    "this_cohort_maximum_HTTP_attempts": 0,
+    "readiness_receipt_sha256": "3354aa08b7d2dcacd50341de465f93ef281152fec0ad65e8a9bc8673476eb711",
+    "predeclared_selection_unchanged": true,
+    "original_five_call_ceiling_unused": true
+  },
+  "route": {
+    "route": "REVERSE_SSH_LOOPBACK_397",
+    "rig_endpoint": "ws://127.0.0.1:18893/?out_sr=48000",
+    "endpoint": "ws://127.0.0.1:18894/?out_sr=48000",
+    "ssh_forward": "127.0.0.1:18894:127.0.0.1:18893"
+  },
+  "model_metadata": {
+    "asr": "Groq whisper-large-v3-turbo",
+    "llm": "OpenAI ChatGPT plan gpt-6.1-sol",
+    "tts": "Piper resident en_US-ljspeech-medium / es_ES-sharvard-medium; duplex_2t_no_spin",
+    "vad": "Silero VAD",
+    "endpoint": "bundled SmartTurnV3.2 CPU",
+    "floor": "Groq qwen/qwen3.8-27b tool-free normal floor"
+  },
+  "scoring_plan": {
+    "local_ASR": true,
+    "maximum_local_transcriptions": 52,
+    "timing": true,
+    "available_voice_metrics": true,
+    "utmos": false,
+    "judge": false,
+    "judge_dependent_semantics": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+    "retry": false,
+    "fallback": false
+  },
+  "dataset_archive_sha256": "2fb6cafa1dd5d40849f2b28e83fc9a8b2eadc16de9235ab17735df2d49ad2a54",
+  "dataset_manifest_sha256": "c4c11fce06028421aaea1530e434f4b602d0cda912eca2f35636fad1a564e803",
+  "original_expiry_and_counter_baseline_omitted": true,
+  "active_grant_or_binding": false,
+  "results": "PENDING_ROOT_ACTUAL_REVIEW"
+}

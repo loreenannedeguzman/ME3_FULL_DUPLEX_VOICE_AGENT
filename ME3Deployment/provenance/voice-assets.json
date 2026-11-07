@@ -1,0 +1,65 @@
+{
+  "credentials_authorization_accounts_in_archive": false,
+  "hardware_probe_performed": false,
+  "main_venv_metadata_only": true,
+  "models_in_archive": false,
+  "native_ABI_loaded": false,
+  "physical_audio_devices_opened": false,
+  "separate_Piper_environment_recreated": false,
+  "voice_assets": [
+    {
+      "archived": false,
+      "bytes": 63531379,
+      "expected_sha256": "6f52a751e2349abe7a76735eb09dc1875298c77ea2342ffd2fef79ff81b87f22",
+      "matches_expected": true,
+      "path": "models/piper/en_US-ljspeech-medium.onnx",
+      "present": true,
+      "sha256": "6f52a751e2349abe7a76735eb09dc1875298c77ea2342ffd2fef79ff81b87f22"
+    },
+    {
+      "archived": false,
+      "bytes": 4972,
+      "expected_sha256": "141d612cc0a95ed7efc1ca936b845c2364967f2e9217c5dbfcf69fc4d6c65860",
+      "matches_expected": true,
+      "path": "models/piper/en_US-ljspeech-medium.onnx.json",
+      "present": true,
+      "sha256": "141d612cc0a95ed7efc1ca936b845c2364967f2e9217c5dbfcf69fc4d6c65860"
+    },
+    {
+      "archived": false,
+      "bytes": 63201294,
+      "expected_sha256": "6658b03b1a6c316ee4c265a9896abc1393353c2d9e1bca7d66c2c442e222a917",
+      "matches_expected": true,
+      "path": "models/piper/es_ES-davefx-medium.onnx",
+      "present": true,
+      "sha256": "6658b03b1a6c316ee4c265a9896abc1393353c2d9e1bca7d66c2c442e222a917"
+    },
+    {
+      "archived": false,
+      "bytes": 4817,
+      "expected_sha256": "0e0dda87c732f6f38771ff274a6380d9252f327dca77aa2963d5fbdf9ec54842",
+      "matches_expected": true,
+      "path": "models/piper/es_ES-davefx-medium.onnx.json",
+      "present": true,
+      "sha256": "0e0dda87c732f6f38771ff274a6380d9252f327dca77aa2963d5fbdf9ec54842"
+    },
+    {
+      "archived": false,
+      "bytes": 76733615,
+      "expected_sha256": "40febfb1679c69a4505ff311dc136e121e3419a13a290ef264fdf43ddedd0fb1",
+      "matches_expected": true,
+      "path": "models/piper/es_ES-sharvard-medium.onnx",
+      "present": true,
+      "sha256": "40febfb1679c69a4505ff311dc136e121e3419a13a290ef264fdf43ddedd0fb1"
+    },
+    {
+      "archived": false,
+      "bytes": 4903,
+      "expected_sha256": "7438c9b699c72b0c3388dae1b68d3f364dc66a2150fe554a1c11f03372957b2c",
+      "matches_expected": true,
+      "path": "models/piper/es_ES-sharvard-medium.onnx.json",
+      "present": true,
+      "sha256": "7438c9b699c72b0c3388dae1b68d3f364dc66a2150fe554a1c11f03372957b2c"
+    }
+  ]
+}

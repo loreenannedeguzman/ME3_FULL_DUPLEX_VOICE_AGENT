@@ -1,0 +1,1141 @@
+{
+  "status": "POSTSCORING004_ANALYSIS_REVIEW_REQUIRED",
+  "source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
+  "course_commit": "57eaddbc188ce9a19b8fd002b575f703426956f4",
+  "contract_sha256": "0494e2928e1f6aabde7e2bb986cde77bad28fb3bbc19f728667c22d16b4f8fbb",
+  "scorer_receipt_sha256": "d0b3d83e6a8bbf1e8655aa9676195960ffde6bcd97266608c727422ff3d092e2",
+  "upstream_metrics_numeric": {
+    "v1_pause_synth.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_pause_candor.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_turntaking.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_turntaking.missed_rate": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_turntaking.latency": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "false_tt.rate": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "false_tt.rate.side_talk": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "false_tt.rate.tv_radio": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "false_tt.rate.background": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "false_tt.rate.noise": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_interrupt.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_interrupt.latency": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v1_interrupt.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v1_interrupt.not_played": 0,
+    "v15_interruption.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_interruption.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_interruption.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_interruption.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_interruption.t_resp": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_interruption.n": 0,
+    "v15_backchannel.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_backchannel.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_backchannel.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_backchannel.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_backchannel.t_resp": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_backchannel.n": 0,
+    "v15_talking_to_other.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_talking_to_other.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_talking_to_other.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_talking_to_other.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_talking_to_other.t_resp": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_talking_to_other.n": 0,
+    "v15_background.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_background.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_background.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_background.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_background.t_resp": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_background.n": 0,
+    "voice.basis": "all interruption clips with voice data",
+    "voice.wpm": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.pitch_mean": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.pitch_sd": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.intensity_mean": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.intensity_sd": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.utmosv2": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "course.e2e": {
+      "n": 21,
+      "median": 6.4977,
+      "p95": 7.3566,
+      "mean": 6.439295238095239,
+      "min": 5.0591,
+      "max": 7.6833,
+      "ci95_median": [
+        6.0265,
+        6.7266
+      ],
+      "p95_note": null,
+      "source": "marks"
+    },
+    "course.asr_final": {
+      "n": 30,
+      "median": 0.60175,
+      "p95": 1.3154599999999994,
+      "mean": 0.7902866666666667,
+      "min": 0.4912,
+      "max": 3.4686,
+      "ci95_median": [
+        0.568245,
+        0.7278287499999996
+      ],
+      "p95_note": null
+    },
+    "course.llm_ttft": {
+      "n": 24,
+      "median": 4.7321,
+      "p95": 6.168754999999999,
+      "mean": 4.7732375000000005,
+      "min": 3.7744,
+      "max": 6.3432,
+      "ci95_median": [
+        4.2637,
+        5.0702
+      ],
+      "p95_note": null
+    },
+    "course.tts_ttfb": {
+      "n": 21,
+      "median": 0.5459,
+      "p95": 0.6944,
+      "mean": 0.5065238095238096,
+      "min": 0.301,
+      "max": 0.7156,
+      "ci95_median": [
+        0.3854,
+        0.607
+      ],
+      "p95_note": null
+    },
+    "course.endpointing": {
+      "n": 30,
+      "median": 0.6355,
+      "p95": 0.6911999999999999,
+      "mean": 0.6668833333333333,
+      "min": 0.556,
+      "max": 1.7297,
+      "ci95_median": [
+        0.61985,
+        0.65315
+      ],
+      "p95_note": null
+    },
+    "course.e2e_heard": {
+      "n": 18,
+      "median": 7.348,
+      "p95": 8.0136,
+      "mean": 7.285777777777778,
+      "min": 6.212,
+      "max": 8.068,
+      "ci95_median": [
+        7.0280000000000005,
+        7.54
+      ],
+      "p95_note": "with fewer than 20 trials p95 is close to the slowest trial"
+    },
+    "course.wer": {
+      "n": 30,
+      "ref_words": 198,
+      "edits": 35,
+      "wer": 0.17676767676767677,
+      "mean_phrase_wer": 0.20026455026455026
+    },
+    "course.barge_in": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null,
+      "kept_talking": 0
+    },
+    "course.context": {
+      "n": 20,
+      "source": [
+        null
+      ],
+      "tokens_median": 4990.0,
+      "tokens_max": 4993,
+      "tokens_first": 4989,
+      "tokens_last": 4985,
+      "messages_median": null,
+      "messages_max": null,
+      "messages_first": null,
+      "messages_last": null,
+      "per_run_median_tokens": {
+        "1": 4991,
+        "2": 4988,
+        "3": 4990.5
+      }
+    },
+    "course.tool_calls": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null,
+      "by_name": {}
+    },
+    "course.stages_seen": {
+      "vad_start": 63,
+      "interrupted": 30,
+      "vad_end": 30,
+      "asr_final": 30,
+      "llm_request": 30,
+      "llm_first_token": 24,
+      "tts_request": 65,
+      "tts_first_audio": 62,
+      "audio_out": 21,
+      "llm_usage": 20,
+      "bot_stopped": 29
+    },
+    "course.per_run": {
+      "1": {
+        "e2e": {
+          "n": 7,
+          "median": 5.773,
+          "p95": 7.52985,
+          "mean": 6.267171428571428,
+          "min": 5.0591,
+          "max": 7.6833,
+          "ci95_median": [
+            5.7103,
+            7.1718
+          ],
+          "p95_note": null
+        },
+        "asr_final": {
+          "n": 10,
+          "median": 0.5724,
+          "p95": 0.9147249999999999,
+          "mean": 0.66038,
+          "min": 0.4926,
+          "max": 0.9415,
+          "ci95_median": [
+            0.55313375,
+            0.8018
+          ],
+          "p95_note": null
+        },
+        "llm_ttft": {
+          "n": 8,
+          "median": 4.5031,
+          "p95": 5.838464999999999,
+          "mean": 4.668525,
+          "min": 3.7744,
+          "max": 6.2312,
+          "ci95_median": [
+            3.9296,
+            5.1091
+          ],
+          "p95_note": null
+        },
+        "tts_ttfb": {
+          "n": 7,
+          "median": 0.607,
+          "p95": 0.68936,
+          "mean": 0.5184428571428572,
+          "min": 0.3079,
+          "max": 0.6944,
+          "ci95_median": [
+            0.3245,
+            0.6776
+          ],
+          "p95_note": null
+        }
+      },
+      "2": {
+        "e2e": {
+          "n": 6,
+          "median": 6.470549999999999,
+          "p95": 6.981575,
+          "mean": 6.506966666666667,
+          "min": 6.0265,
+          "max": 7.0605,
+          "ci95_median": [
+            6.1477,
+            6.9026499999999995
+          ],
+          "p95_note": null
+        },
+        "asr_final": {
+          "n": 10,
+          "median": 0.7273000000000001,
+          "p95": 2.5331399999999977,
+          "mean": 1.0416,
+          "min": 0.5115,
+          "max": 3.4686,
+          "ci95_median": [
+            0.5688,
+            1.0432549999999994
+          ],
+          "p95_note": null
+        },
+        "llm_ttft": {
+          "n": 7,
+          "median": 4.7214,
+          "p95": 6.10236,
+          "mean": 4.937528571428572,
+          "min": 4.1177,
+          "max": 6.3432,
+          "ci95_median": [
+            4.2637,
+            5.5404
+          ],
+          "p95_note": null
+        },
+        "tts_ttfb": {
+          "n": 6,
+          "median": 0.5597000000000001,
+          "p95": 0.653025,
+          "mean": 0.5098,
+          "min": 0.3117,
+          "max": 0.6646,
+          "ci95_median": [
+            0.32825,
+            0.64145
+          ],
+          "p95_note": null
+        }
+      },
+      "3": {
+        "e2e": {
+          "n": 8,
+          "median": 6.5489,
+          "p95": 7.25657,
+          "mean": 6.539149999999999,
+          "min": 5.869,
+          "max": 7.3566,
+          "ci95_median": [
+            6.15835,
+            6.981733749999998
+          ],
+          "p95_note": null
+        },
+        "asr_final": {
+          "n": 10,
+          "median": 0.5995999999999999,
+          "p95": 1.0726349999999996,
+          "mean": 0.6688799999999999,
+          "min": 0.4912,
+          "max": 1.2246,
+          "ci95_median": [
+            0.5162,
+            0.7631087499999998
+          ],
+          "p95_note": null
+        },
+        "llm_ttft": {
+          "n": 9,
+          "median": 4.7764,
+          "p95": 5.56698,
+          "mean": 4.738533333333333,
+          "min": 3.9384,
+          "max": 5.8149,
+          "ci95_median": [
+            3.9659,
+            5.081609999999998
+          ],
+          "p95_note": null
+        },
+        "tts_ttfb": {
+          "n": 8,
+          "median": 0.4836,
+          "p95": 0.671955,
+          "mean": 0.4936375,
+          "min": 0.301,
+          "max": 0.7156,
+          "ci95_median": [
+            0.3854,
+            0.5909
+          ],
+          "p95_note": null
+        }
+      }
+    },
+    "course.phrases": 10,
+    "course.runs": 3,
+    "course.turns": 30
+  },
+  "upstream_CI_method": "Exact pinned course:1000 iid trial median bootstrap, seed0, n>=3. Small-n p95 remains raw and is near the slowest trial when n<20.",
+  "supplemental_Wilson_rate_CIs": {
+    "v1_pause_synth.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v1_pause_candor.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v1_turntaking.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v1_turntaking.missed_rate": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "false_tt.rate": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "false_tt.rate.side_talk": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "false_tt.rate.tv_radio": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "false_tt.rate.background": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "false_tt.rate.noise": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v1_interrupt.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_interruption.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_interruption.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_interruption.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_backchannel.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_backchannel.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_backchannel.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_talking_to_other.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_talking_to_other.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_talking_to_other.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_background.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_background.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_background.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    }
+  },
+  "supplemental_phrase_cluster_CIs": {
+    "e2e": {
+      "method": "SUPPLEMENTAL observed-phrase cluster bootstrap; whole phrase clusters sampled with replacement",
+      "distinct_phrases": 8,
+      "observed_trials": 21,
+      "repetitions": 1000,
+      "seed": 0,
+      "ci95_mean": [
+        6.230633896103896,
+        6.660662012032085
+      ],
+      "ci95_median": [
+        6.0265,
+        6.6023
+      ],
+      "missing_trials_not_imputed": true,
+      "not_upstream_CI": true
+    },
+    "e2e_heard": {
+      "method": "SUPPLEMENTAL observed-phrase cluster bootstrap; whole phrase clusters sampled with replacement",
+      "distinct_phrases": 8,
+      "observed_trials": 18,
+      "repetitions": 1000,
+      "seed": 0,
+      "ci95_mean": [
+        7.125754385964912,
+        7.440483333333333
+      ],
+      "ci95_median": [
+        7.172,
+        7.46
+      ],
+      "missing_trials_not_imputed": true,
+      "not_upstream_CI": true
+    },
+    "endpointing": {
+      "method": "SUPPLEMENTAL observed-phrase cluster bootstrap; whole phrase clusters sampled with replacement",
+      "distinct_phrases": 10,
+      "observed_trials": 30,
+      "repetitions": 1000,
+      "seed": 0,
+      "ci95_mean": [
+        0.6154091666666667,
+        0.7426061666666667
+      ],
+      "ci95_median": [
+        0.60585,
+        0.6551
+      ],
+      "missing_trials_not_imputed": true,
+      "not_upstream_CI": true
+    },
+    "asr_final": {
+      "method": "SUPPLEMENTAL observed-phrase cluster bootstrap; whole phrase clusters sampled with replacement",
+      "distinct_phrases": 10,
+      "observed_trials": 30,
+      "repetitions": 1000,
+      "seed": 0,
+      "ci95_mean": [
+        0.6275325833333333,
+        1.0277674166666666
+      ],
+      "ci95_median": [
+        0.56205,
+        0.8018
+      ],
+      "missing_trials_not_imputed": true,
+      "not_upstream_CI": true
+    },
+    "llm_ttft": {
+      "method": "SUPPLEMENTAL observed-phrase cluster bootstrap; whole phrase clusters sampled with replacement",
+      "distinct_phrases": 9,
+      "observed_trials": 24,
+      "repetitions": 1000,
+      "seed": 0,
+      "ci95_mean": [
+        4.536985326086956,
+        5.002828616071429
+      ],
+      "ci95_median": [
+        4.2637,
+        4.9906
+      ],
+      "missing_trials_not_imputed": true,
+      "not_upstream_CI": true
+    },
+    "tts_ttfb": {
+      "method": "SUPPLEMENTAL observed-phrase cluster bootstrap; whole phrase clusters sampled with replacement",
+      "distinct_phrases": 8,
+      "observed_trials": 21,
+      "repetitions": 1000,
+      "seed": 0,
+      "ci95_mean": [
+        0.4160681100478469,
+        0.5884381655844156
+      ],
+      "ci95_median": [
+        0.3448,
+        0.6145499999999999
+      ],
+      "missing_trials_not_imputed": true,
+      "not_upstream_CI": true
+    }
+  },
+  "judge_dependent_metrics": {
+    "v1_interrupt.rating": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "n": 0,
+        "mean": null
+      }
+    },
+    "v15_interruption.respond": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_interruption.resume": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_interruption.uncertain": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_interruption.unknown": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_interruption.judged": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": 0
+    },
+    "v15_backchannel.respond": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_backchannel.resume": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_backchannel.uncertain": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_backchannel.unknown": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_backchannel.judged": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": 0
+    },
+    "v15_talking_to_other.respond": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_talking_to_other.resume": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_talking_to_other.uncertain": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_talking_to_other.unknown": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_talking_to_other.judged": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": 0
+    },
+    "v15_background.respond": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_background.resume": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_background.uncertain": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_background.unknown": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_background.judged": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": 0
+    }
+  },
+  "judge_status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+  "physical_audible_latency": "NOT_MEASURED",
+  "detection_precision_recall": {
+    "status": "NOT_MEASURED",
+    "reason": "No independently eligible frozen opportunity/prediction label mapping bound to this analysis; cancel/hold/audio events are not semantic ground truth."
+  },
+  "inventory": {
+    "expected_executions": 44,
+    "expected_stage_executions": 30,
+    "queue_status_counts": {
+      "done": 30,
+      "failed": 1,
+      "pending": 9
+    },
+    "data_state_counts": {
+      "SCORED_TIMING": 30,
+      "INFRASTRUCTURE_ERROR": 1,
+      "UNSTARTED": 13
+    },
+    "course_no_reply_count": 12,
+    "cancel_mark_trials": 0,
+    "interruption_mark_trials": 30
+  },
+  "stage_missingness": {
+    "e2e": {
+      "expected": 30,
+      "categories": {
+        "VALUE_OBSERVED": 21,
+        "NO_REPLY_AND_NO_METRIC": 9
+      },
+      "missing": 9
+    },
+    "e2e_heard": {
+      "expected": 30,
+      "categories": {
+        "NO_REPLY_AND_NO_METRIC": 12,
+        "VALUE_OBSERVED": 18
+      },
+      "missing": 12
+    },
+    "endpointing": {
+      "expected": 30,
+      "categories": {
+        "VALUE_OBSERVED": 30
+      },
+      "missing": 0
+    },
+    "asr_final": {
+      "expected": 30,
+      "categories": {
+        "VALUE_OBSERVED": 30
+      },
+      "missing": 0
+    },
+    "llm_ttft": {
+      "expected": 30,
+      "categories": {
+        "VALUE_OBSERVED": 24,
+        "NO_REPLY_AND_NO_METRIC": 6
+      },
+      "missing": 6
+    },
+    "tts_ttfb": {
+      "expected": 30,
+      "categories": {
+        "VALUE_OBSERVED": 21,
+        "NO_REPLY_AND_NO_METRIC": 9
+      },
+      "missing": 9
+    }
+  },
+  "limits": [
+    "No end-to-end value derived from cancellation. Upstream audio/producer onsets do not independently establish substantive or complete replies; filler is not newly labelled as substantive.",
+    "No owner transcripts, generated assistant replies, secrets, hostnames or filesystem paths exported. Prompts originate only from the pinned public dataset manifest.",
+    "Failed/unstarted/missing trials are not successes and are not imputed into latency distributions.",
+    "Voice metrics use upstream available-feature fallback, not a judge-confirmed Respond subset. UTMOS disabled.",
+    "No historical31 trials or aggregate metrics transferred. Supplemental intervals do not replace upstream outputs."
+  ],
+  "metrics_pass_claimed": false,
+  "provider_requests": 0
+}

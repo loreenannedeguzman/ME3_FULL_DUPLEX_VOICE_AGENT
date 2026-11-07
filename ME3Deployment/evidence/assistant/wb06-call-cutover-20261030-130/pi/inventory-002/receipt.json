@@ -1,0 +1,32 @@
+{
+  "status": "READ_ONLY_EXISTING_CALL_CONTROL_INVENTORY",
+  "failure": null,
+  "source_revision": "6a3326abfc34565f0f0d08741f401e6daf02a675ab57d95d65c17bc63fbdc2e6",
+  "inventory": {
+    "official": true,
+    "linked": true,
+    "header": true,
+    "controls": [
+      {
+        "label": "Video call",
+        "icons": [],
+        "enabled": true
+      },
+      {
+        "label": "Voice call",
+        "icons": [],
+        "enabled": true
+      }
+    ],
+    "dialogs": 0,
+    "call_state": "unknown",
+    "account_text_read": false,
+    "inspection_only": true
+  },
+  "directory_queries": 0,
+  "messages": 0,
+  "calls": 0,
+  "physical_capture": false,
+  "physical_output": false,
+  "provider_requests": 0
+}

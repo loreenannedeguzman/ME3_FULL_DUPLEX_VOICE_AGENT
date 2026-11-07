@@ -1,0 +1,16 @@
+{
+  "status": "PUBLIC_NUMERIC_EXPORT_SEPARATE_COHORT_REVIEW",
+  "files": {
+    "analysis.json": "fcdbb36956a72430c8fc645cdddcd1cf23f08aae5852b8b801eaac32caae66a3",
+    "summary.md": "25633eafdaa451fcde4cbc5a3b03f6c3d8c346fb104c49d38c0b71a286af7aa6",
+    "trials.csv": "10005b3134791deabd097c715a733e68e77f203753d642b008a5f94e714e6316",
+    "coverage.json": "af35582cbee89c7ddc60830e124af0240f8072d2a3a9ff87e2630fd6e52a016d"
+  },
+  "byte_exact": true,
+  "scorer_receipt_sha256": "727c77f8ef3dff0fd418ca97ea70146a1e67343937b2d6a2529cb0395effffaf",
+  "collection_receipt_sha256": "caeacf2549d8c843c1e015c7eb8d56be1014ec1e3d8f0289302e2186fb758df2",
+  "F7_status": "PARTIAL",
+  "judge_calls": 0,
+  "raw_trials_pooled": false,
+  "all_pass_inferred": false
+}

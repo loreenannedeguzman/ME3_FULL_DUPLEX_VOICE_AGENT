@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "runtime": {
+    "max_session_seconds": 3600,
+    "max_turns": 128,
+    "tool_rounds": 24,
+    "batch_calls": 3,
+    "rpc_calls": 128
+  },
+  "servers": [
+    {
+      "id": "utilities",
+      "module": "me3_assistant.utility_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "calculate_expression",
+        "get_current_time"
+      ]
+    },
+    {
+      "id": "shopping",
+      "module": "task_mcp.server",
+      "args": [],
+      "identity": "me3",
+      "role": "task",
+      "read_tools": [
+        "list_items"
+      ]
+    },
+    {
+      "id": "library",
+      "module": "me3_assistant.library_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "list_documents",
+        "search_documents",
+        "read_document"
+      ]
+    },
+    {
+      "id": "music",
+      "module": "me3_assistant.music_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "list_tracks",
+        "get_playback_status",
+        "search_tracks",
+        "get_queue",
+        "list_playlists",
+        "read_playlist"
+      ]
+    },
+    {
+      "id": "reminders",
+      "module": "me3_assistant.reminder_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "list_reminders"
+      ]
+    },
+    {
+      "id": "research",
+      "module": "me3_assistant.research_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "read_wikipedia_article",
+        "search_wikipedia",
+        "search_web",
+        "find_weather_locations",
+        "read_current_weather",
+        "list_news_sources",
+        "read_news_source"
+      ],
+      "rpc_timeout_seconds": 30
+    },
+    {
+      "id": "youtube",
+      "module": "me3_assistant.youtube_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "search_videos",
+        "read_video_metadata",
+        "get_player_status"
+      ],
+      "rpc_timeout_seconds": 20
+    },
+    {
+      "id": "soundcloud",
+      "module": "me3_stream.server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "search_music",
+        "get_stream_status"
+      ],
+      "rpc_timeout_seconds": 30
+    },
+    {
+      "id": "whatsapp",
+      "module": "me3_whatsapp.server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "get_session_status",
+        "get_recent_message_status",
+        "search_contacts",
+        "inspect_contact"
+      ],
+      "rpc_timeout_seconds": 30
+    },
+    {
+      "id": "workspace",
+      "module": "me3_assistant.workspace_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "workspace_capabilities",
+        "list_workspace_files",
+        "read_workspace_file"
+      ],
+      "workspace_tools": [
+        "write_workspace_file",
+        "run_workspace_command",
+        "list_workspace_runs",
+        "read_workspace_run",
+        "manage_workspace_runtime"
+      ],
+      "rpc_timeout_seconds": 30
+    },
+    {
+      "id": "calling",
+      "module": "me3_whatsapp.call_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [],
+      "rpc_timeout_seconds": 30
+    },
+    {
+      "id": "productivity",
+      "module": "me3_productivity.server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "productivity_context",
+        "list_tasks",
+        "read_task",
+        "list_events",
+        "read_event",
+        "list_notes",
+        "read_note",
+        "search_notes",
+        "planning_context"
+      ]
+    },
+    {
+      "id": "gmail",
+      "module": "me3_gmail.server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [],
+      "rpc_timeout_seconds": 30
+    },
+    {
+      "id": "gcalendar",
+      "module": "me3_google_calendar.server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "google_calendar_context",
+        "list_google_calendar_events",
+        "read_google_calendar_event"
+      ],
+      "rpc_timeout_seconds": 30
+    }
+  ],
+  "actions": [
+    {
+      "name": "propose_shopping_item",
+      "server": "shopping",
+      "adapter": "shopping_item"
+    },
+    {
+      "name": "propose_music_control",
+      "server": "music",
+      "adapter": "music_control"
+    },
+    {
+      "name": "propose_reminder",
+      "server": "reminders",
+      "adapter": "reminder_control"
+    },
+    {
+      "name": "propose_youtube_control",
+      "server": "youtube",
+      "adapter": "youtube_control"
+    },
+    {
+      "name": "propose_stream_control",
+      "server": "soundcloud",
+      "adapter": "soundcloud_control"
+    },
+    {
+      "name": "propose_whatsapp_message",
+      "server": "whatsapp",
+      "adapter": "whatsapp_message"
+    },
+    {
+      "name": "propose_whatsapp_window",
+      "server": "whatsapp",
+      "adapter": "whatsapp_window"
+    },
+    {
+      "name": "propose_contact_message",
+      "server": "whatsapp",
+      "adapter": "whatsapp_contact_message"
+    },
+    {
+      "name": "propose_whatsapp_call",
+      "server": "calling",
+      "adapter": "whatsapp_call"
+    },
+    {
+      "name": "propose_productivity",
+      "server": "productivity",
+      "adapter": "productivity_control"
+    },
+    {
+      "name": "propose_gmail_send",
+      "server": "gmail",
+      "adapter": "gmail_send"
+    },
+    {
+      "name": "propose_gmail_read",
+      "server": "gmail",
+      "adapter": "gmail_read"
+    },
+    {
+      "name": "propose_google_calendar",
+      "server": "gcalendar",
+      "adapter": "google_calendar_control"
+    }
+  ]
+}

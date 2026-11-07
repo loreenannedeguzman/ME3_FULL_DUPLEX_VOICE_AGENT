@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "runtime": {
+    "max_session_seconds": 600,
+    "max_turns": 8,
+    "tool_rounds": 8,
+    "batch_calls": 3,
+    "rpc_calls": 64
+  },
+  "servers": [
+    {
+      "id": "utilities",
+      "module": "me3_assistant.utility_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "calculate_expression",
+        "get_current_time"
+      ]
+    },
+    {
+      "id": "shopping",
+      "module": "task_mcp.server",
+      "args": [],
+      "identity": "me3",
+      "role": "task",
+      "read_tools": [
+        "list_items"
+      ]
+    },
+    {
+      "id": "library",
+      "module": "me3_assistant.library_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "list_documents",
+        "search_documents",
+        "read_document"
+      ]
+    },
+    {
+      "id": "music",
+      "module": "me3_assistant.music_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "list_tracks",
+        "get_playback_status"
+      ]
+    },
+    {
+      "id": "reminders",
+      "module": "me3_assistant.reminder_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "list_reminders"
+      ]
+    },
+    {
+      "id": "workspace",
+      "module": "me3_assistant.workspace_server",
+      "args": [],
+      "identity": "me3",
+      "role": "utility",
+      "read_tools": [
+        "workspace_capabilities",
+        "list_workspace_files",
+        "read_workspace_file"
+      ],
+      "workspace_tools": [
+        "write_workspace_file",
+        "run_workspace_command",
+        "list_workspace_runs",
+        "read_workspace_run"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "propose_shopping_item",
+      "server": "shopping",
+      "adapter": "shopping_item"
+    },
+    {
+      "name": "propose_music_control",
+      "server": "music",
+      "adapter": "music_control"
+    },
+    {
+      "name": "propose_reminder",
+      "server": "reminders",
+      "adapter": "reminder_control"
+    }
+  ]
+}

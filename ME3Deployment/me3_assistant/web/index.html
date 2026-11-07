@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="me3-csrf" content="__CSRF__"><title>ME3</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script><script src="/youtube.js" defer></script></head>
+<body>
+<main class="app">
+  <header><a href="/" class="brand" aria-label="ME3 home">ME3<span class="brand-dot"></span></a><div class="session-state" role="status"><i id="connection-dot"></i><span id="status">Connecting…</span></div><button id="youtube-toggle" class="quiet" aria-label="YouTube player">YouTube</button><button id="stop" class="quiet" hidden>Stop</button><button id="clear" class="icon quiet" aria-label="New conversation" title="New conversation">＋</button></header>
+  <section class="conversation" aria-label="Conversation">
+    <div id="empty" class="empty"><div class="wave" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div><h1>What's on your mind today?</h1></div>
+    <div id="messages" aria-live="polite" aria-relevant="additions text"></div>
+  </section>
+  <section id="youtube" class="youtube" aria-label="YouTube player" hidden><div class="youtube-controls"><input id="youtube-url" aria-label="YouTube link" placeholder="YouTube link…" maxlength="500"><button id="youtube-open" type="button">Open</button></div><div id="youtube-player"></div><p id="youtube-status" role="status">Open a link or use a typed request.</p></section>
+  <section id="tasks" class="tasks" aria-label="Task progress" hidden><div class="task-heading">Tasks</div><ol id="task-list" aria-live="polite"></ol></section>
+  <section id="reminders" class="alerts" aria-label="Reminders" hidden></section>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <form id="composer" class="composer"><label class="sr-only" for="message">Message ME3</label><textarea id="message" rows="1" maxlength="4000" placeholder="Type a message…"></textarea><div class="input-actions"><button id="voice" type="button" class="icon microphone" aria-label="Start voice conversation" title="Start voice conversation"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="13" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8"/></svg></button><button id="send" type="submit" class="icon send" aria-label="Send message" title="Send message"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button></div></form>
+</main>
+</body></html>

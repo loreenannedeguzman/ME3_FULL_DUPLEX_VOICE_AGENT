@@ -1,0 +1,58 @@
+{
+  "model": "Raspberry Pi 5 Model B Rev 1.1",
+  "kernel_release": "6.18.50+rpt-rpi-2712",
+  "machine": "aarch64",
+  "logical_CPU_count": 4,
+  "memory": {
+    "MemTotal_bytes": 8449769472,
+    "MemAvailable_bytes": 6620217344,
+    "SwapTotal_bytes": 2147467264,
+    "SwapFree_bytes": 2147467264
+  },
+  "project_filesystem": {
+    "total_bytes": 125364555776,
+    "available_bytes": 79261523968
+  },
+  "network": [
+    {
+      "interface": "eth0",
+      "operstate": "down",
+      "carrier": 0,
+      "speed_Mbps": -1
+    },
+    {
+      "interface": "wlan0",
+      "operstate": "up",
+      "carrier": 1,
+      "speed_Mbps": null
+    }
+  ],
+  "audio_identifiers": [
+    {
+      "card": "card0",
+      "id": "vc4hdmi0",
+      "usb_vendor_id": null,
+      "usb_product_id": null
+    },
+    {
+      "card": "card1",
+      "id": "vc4hdmi1",
+      "usb_vendor_id": null,
+      "usb_product_id": null
+    },
+    {
+      "card": "card2",
+      "id": "Device",
+      "usb_vendor_id": "08bb",
+      "usb_product_id": "2902"
+    }
+  ],
+  "thermal": [
+    {
+      "zone": "thermal_zone0",
+      "type": "cpu-thermal",
+      "temperature_C": 47.4
+    }
+  ],
+  "limits": "Kernel-reported identifiers and instantaneous available resources/temperature only; no physical photo, acoustic test, fresh OS install or ABI qualification."
+}

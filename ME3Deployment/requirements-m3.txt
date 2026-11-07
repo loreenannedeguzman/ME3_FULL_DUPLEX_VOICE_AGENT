@@ -1,0 +1,6 @@
+-r requirements.txt
+mcp==1.26.0
+google-genai==2.31.0
+
+# Existing transitive version made explicit for the replaceable TTS HTTP adapter.
+httpx==0.28.1

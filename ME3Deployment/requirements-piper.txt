@@ -1,0 +1,2 @@
+# Isolated optional local neural backend; do not install into accepted main venv.
+piper-tts==1.8.0

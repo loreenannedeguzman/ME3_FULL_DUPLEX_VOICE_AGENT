@@ -1,0 +1,9 @@
+{
+  "asr_connection_mode": "reuse_after_success",
+  "turn_deadline_seconds": 55,
+  "empty_transcript_prompt": true,
+  "voice": "unchanged resident Piper",
+  "speech_config": "config/m7_asr.json",
+  "http_keepalive_seconds": 60,
+  "dns_cache_seconds": 300
+}

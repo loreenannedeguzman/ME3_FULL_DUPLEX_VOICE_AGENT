@@ -1,0 +1,28 @@
+{
+  "status": "HISTORICAL_ADAPTER005_METHOD_ONLY_NOT_AN_EXECUTION_CONTRACT",
+  "execution_approved": false,
+  "active_grant_or_binding": false,
+  "source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
+  "normal_runtime_changed": false,
+  "course_commit": "57eaddbc188ce9a19b8fd002b575f703426956f4",
+  "adapter_manifest_sha256": "a20ad9b062ec59a972c319951be70e11ba1899b06683c01ffb79e74173a3619b",
+  "qualification_receipt_sha256": "027c5b76618987b75ae8a63d3d47e94e04fd841048efd5530bfda61a29bbb6d8",
+  "qualification_scope": "One actual source-bound software case for pause-aware local backpressure; not provider/ASR startup availability.",
+  "adapter_freeze_sha256": "f637ac343ab39150f9244dc4fe8a39461c93bcde720bb5daa41596c6f1b0ebb0",
+  "original_private_contract_sha256": "e5ebda1e3e4cf2857ad03ddc4a335cdf49d0075ee22744efcbbb7754a2107418",
+  "plan": {
+    "rounds": 1,
+    "phrases": 0,
+    "runs": 0,
+    "seed": 0,
+    "queue_items": 10,
+    "execution_slots": 14
+  },
+  "change": "Local output writer/tail drain excludes actual SuspendableBuffer pause time from its two-second active budget; actual PCM wire send retains its separate two-second bound.",
+  "production_and_course_windows_unchanged": true,
+  "judge_calls": 0,
+  "judge_status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+  "old004_failure_retained": true,
+  "no_measurement_transfer": true,
+  "original_expiry_and_counter_baseline_omitted": true
+}

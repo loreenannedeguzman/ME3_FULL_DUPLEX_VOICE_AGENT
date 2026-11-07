@@ -1,0 +1,18 @@
+{
+  "status": "COHORT004_PARTIAL_NUMERIC_EXPORT_ROOT_REVIEW_REQUIRED",
+  "files": {
+    "analysis.json": "b2502441ec27f90c8a3e0d0365f6aea0cbdc53a17070be57bea3ba0ed1561291",
+    "summary.md": "3feded1f4a6fb5fe98936f46dddf7314d957c051828e0481ee4dbc98ac5277a6",
+    "trials.csv": "4aa62a375c7becbf685a1747fa9f4e002b4a637e8e252a30f2f12ae083869b9b"
+  },
+  "byte_exact": true,
+  "source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
+  "contract_sha256": "0494e2928e1f6aabde7e2bb986cde77bad28fb3bbc19f728667c22d16b4f8fbb",
+  "scorer_receipt_sha256": "d0b3d83e6a8bbf1e8655aa9676195960ffde6bcd97266608c727422ff3d092e2",
+  "stage_executions": 30,
+  "adapter_failed_executions": 1,
+  "unstarted_slots": 13,
+  "judge_calls": 0,
+  "metrics_pass_claimed": false,
+  "successor005": "PENDING_ROOT_REVIEW_NOT_COMBINED"
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "modes": [
+    "normal",
+    "text"
+  ],
+  "backend": "groq",
+  "runtime": {
+    "max_session_seconds": 3600,
+    "max_turns": 128,
+    "tool_rounds": 24,
+    "batch_calls": 3,
+    "rpc_calls": 128
+  },
+  "workspace_access": false,
+  "routine_local_music": false,
+  "allowed_actions": [],
+  "hosted_requests_per_minute": 14,
+  "max_input_seconds": 120,
+  "speaker_aec": false,
+  "operator_review_required": true,
+  "approved": false
+}

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="2040" viewBox="0 0 2400 2040"><title>ME3 detailed architecture</title><desc>Pi-local voice, context, Onit, guarded MCP tools and Piper, with separate cloud recognition, reasoning and external services. Architecture aligned with the two-page summary and expanded script.</desc>
+<defs><marker id="data" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#087d85"/></marker><marker id="control" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#df782c"/></marker><marker id="evidence" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#53687b"/></marker></defs>
+<rect width="2400" height="2040" fill="#fff"/>
+<rect x="0" y="0" width="2400" height="105" rx="0" fill="#13283c" stroke="#13283c" stroke-width="2"/>
+<text x="60" y="48" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#fff">ME3 | Detailed system architecture</text>
+<text x="60" y="83" font-family="Arial, sans-serif" font-size="23" font-weight="400" fill="#dbe8ef">Standalone Raspberry Pi 5 runtime with Wi-Fi | Voice, text, shared context and guarded task execution</text>
+<text x="80" y="140" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#087d85">CLOUD SERVICES — model inference and authorized external access</text>
+<rect x="60" y="385" width="2280" height="1360" rx="20" fill="#fbfcfe" stroke="#cfdae3" stroke-width="2"/>
+<text x="92" y="422" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#087d85">RASPBERRY PI 5 — local services, conversation ownership and execution control</text>
+<rect x="100" y="447" width="2130" height="58" rx="9" fill="#eaf0f6" stroke="#cfdae3" stroke-width="2"/>
+<text x="122" y="484" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#13283c">ME3 GUI: microphone start/stop · text input · conversation / Copy conversation · status notices · Artifacts preview</text>
+<polyline points="380,725 380,790" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-end="url(#data)"/>
+<polyline points="660,880 715,880 715,670 830,670" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-end="url(#data)"/>
+<polyline points="1180,750 1180,815" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-start="url(#data)" marker-end="url(#data)"/>
+<polyline points="1530,875 1590,875 1590,640 1670,640" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-start="url(#data)" marker-end="url(#data)"/>
+<polyline points="1950,750 1950,815" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-start="url(#data)" marker-end="url(#data)"/>
+<polyline points="1950,1025 1950,1090" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-start="url(#data)" marker-end="url(#data)"/>
+<polyline points="2050,1280 2050,1345" fill="none" stroke="#53687b" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4 7" marker-end="url(#evidence)"/>
+<polyline points="1830,1025 1630,1025 1630,1435 1670,1435" fill="none" stroke="#53687b" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4 7" marker-end="url(#evidence)"/>
+<polyline points="1180,1000 1180,1070" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-end="url(#data)"/>
+<polyline points="830,1160 660,1160" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-end="url(#data)"/>
+<polyline points="380,1255 380,1330" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-end="url(#data)"/>
+<polyline points="1180,1340 1180,1275" fill="none" stroke="#df782c" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 7" marker-end="url(#control)"/>
+<polyline points="830,1435 660,1435" fill="none" stroke="#df782c" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 7" marker-end="url(#control)"/>
+<polyline points="660,600 775,600 775,1400 830,1400" fill="none" stroke="#df782c" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 7" marker-end="url(#control)"/>
+<polyline points="70,1400 70,590 100,590" fill="none" stroke="#53687b" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4 7" marker-end="url(#evidence)"/>
+<polyline points="100,1400 70,1400" fill="none" stroke="#53687b" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4 7" marker-end="url(#evidence)"/>
+<polyline points="100,875 45,875 45,260 100,260" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-start="url(#data)" marker-end="url(#data)"/>
+<polyline points="1530,855 1555,855 1555,260 1530,260" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-start="url(#data)" marker-end="url(#data)"/>
+<polyline points="1530,1550 2370,1550 2370,365 1100,365 1100,335" fill="none" stroke="#df782c" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 7" marker-start="url(#control)" marker-end="url(#control)"/>
+<polyline points="2230,925 2310,925 2310,260 2230,260" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-start="url(#data)" marker-end="url(#data)"/>
+<polyline points="1180,505 1180,545" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-end="url(#data)"/>
+<rect x="100" y="165" width="560" height="170" rx="14" fill="#e8f4f3" stroke="#087d85" stroke-width="2"/>
+<text x="122" y="202" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#087d85">Cloud speech recognition</text>
+<text x="122" y="239" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Groq · whisper-large-v3-turbo</text>
+<text x="122" y="268" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">WAV audio over HTTPS → transcript</text>
+<text x="122" y="297" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Recognition model runs outside the Pi</text>
+<rect x="830" y="165" width="700" height="170" rx="14" fill="#e8f4f3" stroke="#087d85" stroke-width="2"/>
+<text x="852" y="202" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#087d85">Cloud reasoning — distinct model roles</text>
+<text x="852" y="239" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Main Onit task reasoning: gpt-6.1-sol</text>
+<text x="852" y="268" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Host floor advisory: qwen/qwen3.8-27b, tool-free</text>
+<text x="852" y="297" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Separate roles; Qwen cannot authorize actions</text>
+<text x="852" y="326" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Admitted / counted provider requests</text>
+<rect x="1670" y="165" width="560" height="170" rx="14" fill="#e8f4f3" stroke="#087d85" stroke-width="2"/>
+<text x="1692" y="202" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#087d85">Configured internet services</text>
+<text x="1692" y="239" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Web research · Google Calendar · Gmail</text>
+<text x="1692" y="268" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">WhatsApp and supported media routes</text>
+<text x="1692" y="297" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Access only within configured scope</text>
+<rect x="100" y="545" width="560" height="180" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="122" y="582" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">1  Capture and audio processing</text>
+<text x="122" y="619" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Pi microphone → Pipecat pipeline</text>
+<text x="122" y="648" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Local Silero VAD / SmartTurn</text>
+<text x="122" y="677" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">WebRTC AEC and turn / pause handling</text>
+<text x="122" y="706" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Listening remains available during output</text>
+<rect x="100" y="790" width="560" height="190" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="122" y="827" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">2  Student-built ASR MCP service</text>
+<text x="122" y="864" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">FastMCP / stdio · transcribe(...)</text>
+<text x="122" y="893" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">16 kHz mono PCM16, Base64 input</text>
+<text x="122" y="922" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Validate → WAV / Groq → recognized text</text>
+<text x="122" y="951" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Request IDs, deadlines and cleanup</text>
+<rect x="830" y="545" width="700" height="205" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="852" y="582" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">3  Shared conversation and task context</text>
+<text x="852" y="619" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">One conversation owner for voice AND typed input</text>
+<text x="852" y="648" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Bounded history · goal ID / revision · clarification</text>
+<text x="852" y="677" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Tool evidence · pending review · retained replies</text>
+<text x="852" y="706" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Current artifact / preview / service references</text>
+<text x="852" y="735" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Persistent artifacts are read through tools</text>
+<rect x="830" y="815" width="700" height="185" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="852" y="852" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">4  Onit — sole task-planning loop</text>
+<text x="852" y="889" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Interprets the goal using the selected language model</text>
+<text x="852" y="918" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Chooses supplied tools and prepares responses</text>
+<text x="852" y="947" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Provider broker checks admission / counts requests</text>
+<text x="852" y="976" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">No model-generated expansion of host permissions</text>
+<rect x="1670" y="545" width="560" height="205" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="1692" y="582" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">5  Guarded execution gateway</text>
+<text x="1692" y="619" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Validate permitted action and current identity</text>
+<text x="1692" y="648" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Exact recipient / content / action review</text>
+<text x="1692" y="677" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Separate confirmation when required</text>
+<text x="1692" y="706" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Verify results before claiming completion</text>
+<text x="1692" y="735" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Uncertain outcome → readback, not replay</text>
+<rect x="1670" y="815" width="560" height="210" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="1692" y="852" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">6  Pi-hosted MCP tools and adapters</text>
+<text x="1692" y="889" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Research · utilities · local media</text>
+<text x="1692" y="918" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Calendars · documents · communication</text>
+<text x="1692" y="947" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Artifacts / code workspace · bounded jobs</text>
+<text x="1692" y="976" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Actual tool schemas and scoped access</text>
+<text x="1692" y="1005" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Results return through the gateway</text>
+<rect x="830" y="1070" width="700" height="205" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="852" y="1107" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">7  Validated speech delivery</text>
+<text x="852" y="1144" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Complete reply or validated earlier speech prefix</text>
+<text x="852" y="1173" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Spoken-text preparation and coherent phrase groups</text>
+<text x="852" y="1202" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Bounded next-phrase synthesis during playback</text>
+<text x="852" y="1231" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Current-generation ownership at delivery boundaries</text>
+<text x="852" y="1260" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">A progress cue is not proof of task completion</text>
+<rect x="100" y="1050" width="560" height="205" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="122" y="1087" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">8  Student-built TTS MCP service</text>
+<text x="122" y="1124" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">FastMCP / stdio · synthesize(...)</text>
+<text x="122" y="1153" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Resident local Piper CPU worker</text>
+<text x="122" y="1182" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">English: en_US-ljspeech-medium</text>
+<text x="122" y="1211" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Female Spanish: es_ES-sharvard-medium</text>
+<text x="122" y="1240" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Returns 24 kHz mono PCM16 audio</text>
+<rect x="100" y="1330" width="560" height="175" rx="14" fill="#f4f7fa" stroke="#cfdae3" stroke-width="2"/>
+<text x="122" y="1367" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">9  Speech / music mixer and speaker</text>
+<text x="122" y="1404" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Generation-owned playback buffers</text>
+<text x="122" y="1433" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Supported local / selected media playback</text>
+<text x="122" y="1462" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Speaker output and AEC reference</text>
+<text x="122" y="1491" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Pause / resume / clear obsolete output</text>
+<rect x="830" y="1340" width="700" height="240" rx="14" fill="#fff2e7" stroke="#cfdae3" stroke-width="2"/>
+<text x="852" y="1377" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">Duplex control — host-owned, not a second planner</text>
+<text x="852" y="1414" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Speech activity → contextual floor interpretation</text>
+<text x="852" y="1443" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Acknowledgment: suspend / resume the SAME answer</text>
+<text x="852" y="1472" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Correction: invalidate stale generation; replace reply</text>
+<text x="852" y="1501" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Generation + request IDs fence obsolete results</text>
+<text x="852" y="1530" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Tool-free Qwen advisory supports floor decisions</text>
+<text x="852" y="1559" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Host validates; advisory cannot authorize actions</text>
+<rect x="1670" y="1090" width="560" height="190" rx="14" fill="#fff5e9" stroke="#cfdae3" stroke-width="2"/>
+<text x="1692" y="1127" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">Artifacts, previews and owned jobs</text>
+<text x="1692" y="1164" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Saved files / apps and current file versions</text>
+<text x="1692" y="1193" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Preview opens inside the ME3 GUI</text>
+<text x="1692" y="1222" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Bounded background server + health status</text>
+<text x="1692" y="1251" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Close preview ≠ stop its server</text>
+<rect x="1670" y="1345" width="560" height="155" rx="14" fill="#fff5e9" stroke="#cfdae3" stroke-width="2"/>
+<text x="1692" y="1382" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#13283c">Durable state and verification evidence</text>
+<text x="1692" y="1419" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Action journals / once-only intent records</text>
+<text x="1692" y="1448" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Counters, status and owned-job evidence</text>
+<text x="1692" y="1477" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">No automatic resend of uncertain effects</text>
+<rect x="387" y="742" width="165" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="395" y="764" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">captured audio</text>
+<rect x="1187" y="770" width="235" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="1195" y="792" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">context / response history</text>
+<rect x="1192" y="1018" width="215" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="1200" y="1040" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">verified reply delivery</text>
+<rect x="668" y="1115" width="145" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="676" y="1137" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">text + language</text>
+<rect x="387" y="1281" width="173" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="395" y="1303" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">PCM for playback</text>
+<rect x="1602" y="753" width="218" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="1610" y="775" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">tools / verified results</text>
+<rect x="1992" y="1048" width="190" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="2000" y="1070" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">files / service state</text>
+<rect x="142" y="1538" width="445" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="150" y="1560" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">Dotted return: mixer output reference → AEC</text>
+<rect x="1662" y="1513" width="325" height="30" rx="4" fill="#fff" stroke="#fff" stroke-width="2"/>
+<text x="1670" y="1535" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#53687b">Separate tool-free floor advisory</text>
+<text x="102" y="1640" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#13283c">“Student-built” means the MCP service and integration were implemented for the assignment; the speech models were reused.</text>
+<text x="102" y="1678" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#53687b">Cloud calls require Wi-Fi and private provider/account setup. The normal Pi runtime does not require the laptop or Codex desktop.</text>
+<text x="102" y="1716" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#53687b">Floor advisory: qwen/qwen3.8-27b, tool-free. Startup prewarming remains inactive. External actions remain guarded and independently verified.</text>
+<text x="92" y="1800" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#13283c">READING THE CONNECTIONS</text>
+<polyline points="100,1840 210,1840" fill="none" stroke="#087d85" stroke-width="3" stroke-linejoin="round" marker-end="url(#data)"/>
+<text x="235" y="1848" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Audio, text, model and tool data; two arrowheads indicate exchange</text>
+<polyline points="100,1885 210,1885" fill="none" stroke="#df782c" stroke-width="3" stroke-linejoin="round" stroke-dasharray="10 7" marker-end="url(#control)"/>
+<text x="235" y="1893" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">Duplex control: activity, ownership, pause / resume and cancellation</text>
+<polyline points="100,1930 210,1930" fill="none" stroke="#53687b" stroke-width="3" stroke-linejoin="round" stroke-dasharray="4 7" marker-end="url(#evidence)"/>
+<text x="235" y="1938" font-family="Arial, sans-serif" font-size="22" font-weight="400" fill="#22374a">State / verification records or audio echo reference</text>
+<text x="92" y="1991" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#53687b">Aligned with the two-page summary and expanded script · Pi source 03d7a144… · Architecture diagram, not a claim that every case passed.</text>
+</svg>

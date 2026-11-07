@@ -1,0 +1,841 @@
+{
+  "status": "POSTSCORING006_ANALYSIS_REVIEW_REQUIRED",
+  "source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
+  "course_commit": "57eaddbc188ce9a19b8fd002b575f703426956f4",
+  "contract_sha256": "5482c29a07d76b2e5cdfc5f0d9b56827541c0eb51a219af76b0bc1fd576d5670",
+  "scorer_receipt_sha256": "c7df4ee9535be818065343b6e8cc0afc19b573b4d170d0b209c7a4b74d945d75",
+  "upstream_metrics_numeric": {
+    "v1_pause_synth.tor": {
+      "n": 1,
+      "k": 0,
+      "value": 0.0
+    },
+    "v1_pause_candor.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_turntaking.tor": {
+      "n": 1,
+      "k": 0,
+      "value": 0.0
+    },
+    "v1_turntaking.missed_rate": {
+      "n": 1,
+      "k": 1,
+      "value": 1.0
+    },
+    "v1_turntaking.latency": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "false_tt.rate": {
+      "n": 2,
+      "k": 1,
+      "value": 0.5
+    },
+    "false_tt.rate.side_talk": {
+      "n": 1,
+      "k": 1,
+      "value": 1.0
+    },
+    "false_tt.rate.tv_radio": {
+      "n": 1,
+      "k": 0,
+      "value": 0.0
+    },
+    "false_tt.rate.background": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "false_tt.rate.noise": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_interrupt.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v1_interrupt.latency": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v1_interrupt.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v1_interrupt.not_played": 1,
+    "v15_interruption.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_interruption.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_interruption.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_interruption.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_interruption.t_resp": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_interruption.n": 0,
+    "v15_backchannel.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_backchannel.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_backchannel.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_backchannel.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_backchannel.t_resp": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_backchannel.n": 0,
+    "v15_talking_to_other.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_talking_to_other.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_talking_to_other.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_talking_to_other.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_talking_to_other.t_resp": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_talking_to_other.n": 1,
+    "v15_background.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_background.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_background.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null
+    },
+    "v15_background.t_stop": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_background.t_resp": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "v15_background.n": 1,
+    "voice.basis": "all interruption clips with voice data",
+    "voice.wpm": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.pitch_mean": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.pitch_sd": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.intensity_mean": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.intensity_sd": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "voice.utmosv2": {
+      "n": 0,
+      "mean_delta": null,
+      "p": null,
+      "significant": null,
+      "expected": null
+    },
+    "course.e2e": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null,
+      "source": null
+    },
+    "course.asr_final": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "course.llm_ttft": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "course.tts_ttfb": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "course.endpointing": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "course.e2e_heard": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null
+    },
+    "course.wer": {
+      "n": 0,
+      "ref_words": 0,
+      "edits": 0,
+      "wer": null,
+      "mean_phrase_wer": null
+    },
+    "course.barge_in": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null,
+      "kept_talking": 0
+    },
+    "course.context": {
+      "n": 4,
+      "source": [
+        null
+      ],
+      "tokens_median": 4990.5,
+      "tokens_max": 4995,
+      "tokens_first": 4989,
+      "tokens_last": 4995,
+      "messages_median": null,
+      "messages_max": null,
+      "messages_first": null,
+      "messages_last": null,
+      "per_run_median_tokens": {}
+    },
+    "course.tool_calls": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "mean": null,
+      "ci95_median": [
+        null,
+        null
+      ],
+      "p95_note": null,
+      "by_name": {}
+    },
+    "course.stages_seen": {
+      "vad_start": 37,
+      "interrupted": 9,
+      "vad_end": 13,
+      "asr_final": 9,
+      "llm_request": 9,
+      "llm_first_token": 8,
+      "tts_request": 8,
+      "tts_first_audio": 5,
+      "audio_out": 5,
+      "llm_usage": 4,
+      "bot_stopped": 1
+    },
+    "course.per_run": {},
+    "course.phrases": 0,
+    "course.runs": 0,
+    "course.turns": 0
+  },
+  "upstream_CI_method": "Exact pinned course:1000 iid trial median bootstrap, seed0, n>=3. Small-n p95 remains raw and is near the slowest trial when n<20.",
+  "supplemental_Wilson_rate_CIs": {
+    "v1_pause_synth.tor": {
+      "n": 1,
+      "k": 0,
+      "value": 0.0,
+      "ci95": [
+        0,
+        0.7934506856227626
+      ],
+      "method": "Supplemental two-sided Wilson score 95%; upstream k/n unchanged"
+    },
+    "v1_pause_candor.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v1_turntaking.tor": {
+      "n": 1,
+      "k": 0,
+      "value": 0.0,
+      "ci95": [
+        0,
+        0.7934506856227626
+      ],
+      "method": "Supplemental two-sided Wilson score 95%; upstream k/n unchanged"
+    },
+    "v1_turntaking.missed_rate": {
+      "n": 1,
+      "k": 1,
+      "value": 1.0,
+      "ci95": [
+        0.20654931437723745,
+        1
+      ],
+      "method": "Supplemental two-sided Wilson score 95%; upstream k/n unchanged"
+    },
+    "false_tt.rate": {
+      "n": 2,
+      "k": 1,
+      "value": 0.5,
+      "ci95": [
+        0.09453120573423074,
+        0.9054687942657693
+      ],
+      "method": "Supplemental two-sided Wilson score 95%; upstream k/n unchanged"
+    },
+    "false_tt.rate.side_talk": {
+      "n": 1,
+      "k": 1,
+      "value": 1.0,
+      "ci95": [
+        0.20654931437723745,
+        1
+      ],
+      "method": "Supplemental two-sided Wilson score 95%; upstream k/n unchanged"
+    },
+    "false_tt.rate.tv_radio": {
+      "n": 1,
+      "k": 0,
+      "value": 0.0,
+      "ci95": [
+        0,
+        0.7934506856227626
+      ],
+      "method": "Supplemental two-sided Wilson score 95%; upstream k/n unchanged"
+    },
+    "false_tt.rate.background": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "false_tt.rate.noise": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v1_interrupt.tor": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_interruption.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_interruption.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_interruption.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_backchannel.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_backchannel.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_backchannel.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_talking_to_other.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_talking_to_other.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_talking_to_other.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_background.class.through": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_background.class.paused": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    },
+    "v15_background.class.stopped": {
+      "n": 0,
+      "k": 0,
+      "value": null,
+      "ci95": [
+        null,
+        null
+      ],
+      "method": "Wilson score 95%; no estimate with n=0"
+    }
+  },
+  "supplemental_phrase_cluster_CIs": {},
+  "judge_dependent_metrics": {
+    "v1_interrupt.rating": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "n": 0,
+        "mean": null
+      }
+    },
+    "v15_interruption.respond": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_interruption.resume": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_interruption.uncertain": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_interruption.unknown": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_interruption.judged": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": 0
+    },
+    "v15_backchannel.respond": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_backchannel.resume": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_backchannel.uncertain": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_backchannel.unknown": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_backchannel.judged": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": 0
+    },
+    "v15_talking_to_other.respond": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_talking_to_other.resume": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_talking_to_other.uncertain": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_talking_to_other.unknown": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_talking_to_other.judged": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": 0
+    },
+    "v15_background.respond": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_background.resume": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_background.uncertain": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_background.unknown": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": {
+        "value": null,
+        "n": 0
+      }
+    },
+    "v15_background.judged": {
+      "status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+      "upstream_raw_numeric": 0
+    }
+  },
+  "judge_status": "NOT_SCORED_JUDGE_READINESS_TIMEOUT",
+  "physical_audible_latency": "NOT_MEASURED",
+  "detection_precision_recall": {
+    "status": "NOT_MEASURED",
+    "reason": "No independently eligible frozen opportunity/prediction label mapping bound to this analysis; cancel/hold/audio events are not semantic ground truth."
+  },
+  "inventory": {
+    "expected_executions": 14,
+    "expected_stage_executions": 0,
+    "queue_status_counts": {
+      "done": 7,
+      "pending": 3
+    },
+    "data_state_counts": {
+      "SCORED_TIMING": 9,
+      "UNSTARTED": 5
+    },
+    "course_no_reply_count": 5,
+    "cancel_mark_trials": 0,
+    "interruption_mark_trials": 9
+  },
+  "stage_missingness": {
+    "e2e": {
+      "expected": 0,
+      "categories": {},
+      "missing": 0
+    },
+    "e2e_heard": {
+      "expected": 0,
+      "categories": {},
+      "missing": 0
+    },
+    "endpointing": {
+      "expected": 0,
+      "categories": {},
+      "missing": 0
+    },
+    "asr_final": {
+      "expected": 0,
+      "categories": {},
+      "missing": 0
+    },
+    "llm_ttft": {
+      "expected": 0,
+      "categories": {},
+      "missing": 0
+    },
+    "tts_ttfb": {
+      "expected": 0,
+      "categories": {},
+      "missing": 0
+    }
+  },
+  "limits": [
+    "No end-to-end value derived from cancellation. Upstream audio/producer onsets do not independently establish substantive or complete replies; filler is not newly labelled as substantive.",
+    "No owner transcripts, generated assistant replies, secrets, hostnames or filesystem paths exported. Prompts originate only from the pinned public dataset manifest.",
+    "Failed/unstarted/missing trials are not successes and are not imputed into latency distributions.",
+    "Voice metrics use upstream available-feature fallback, not a judge-confirmed Respond subset. UTMOS disabled.",
+    "Cohort006 has zero stage trials;004 stage metrics remain separate, without pooling. No historical31 trials or aggregate metrics transferred. Supplemental intervals do not replace upstream outputs."
+  ],
+  "metrics_pass_claimed": false,
+  "provider_requests": 0
+}

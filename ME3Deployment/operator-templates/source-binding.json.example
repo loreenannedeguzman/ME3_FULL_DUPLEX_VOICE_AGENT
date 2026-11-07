@@ -1,0 +1,6 @@
+{
+  "approved": false,
+  "source_revision": "COMPUTE_AFTER_PRIVATE_OPERATOR_CONFIGURATION",
+  "source_hashes": {},
+  "note": "Use a separately reviewed source/native-index/config/authority rebind. Never relabel this as the measured03d7 candidate."
+}

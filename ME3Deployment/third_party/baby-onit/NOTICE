@@ -1,0 +1,13 @@
+ME3 selectively adapts the Okapi BM25 scoring/tokenization approach from Baby Onit.
+Upstream repository: https://github.com/sibyl-oracles/baby-onit
+Commit: df8c5be0ae0dbe9af2130bb889df1a0f68b49c90
+File: baby_onit.py, _tokens and _bm25
+Upstream author (project metadata): Rowel Atienza
+License: Apache License 2.0; full upstream LICENSE retained alongside this notice.
+Upstream source SHA256: 1e8cafea1871e8ef06b106bc7e5eb93e60c1c9e3f24d4ecb3c00b2af940bc642
+
+ME3 modifications: Unicode tokenization, Counter term frequencies, stable ties,
+source-preserving offsets, exact-phrase precedence, bounded designated-library
+reads, per-request rebuilding, no recursive filesystem/global cache or shell.
+General web search reuses the capability pattern through ME3's own cancellable
+Chromium adapter; no upstream agent/provider loop or external dependencies imported.

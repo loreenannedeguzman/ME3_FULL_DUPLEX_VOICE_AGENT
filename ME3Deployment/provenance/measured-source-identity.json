@@ -1,0 +1,11 @@
+{
+  "measured_source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
+  "source_files": 586,
+  "native_files": 64,
+  "source_archive_sha256": "9e41057d450bcedc39b89d9b1e19f88803de441182f2210babae2c2cd66acb23",
+  "native_index_sha256": "c5adc049e5eb4e1ae8551d74e22d532727c0e45bb6c8cc817952ae27a20dfede",
+  "measurement_source_is_not_publication_copy": true,
+  "exact_source_restore_checks": 7,
+  "clean_OS_or_environment_install_proved": false,
+  "publication_runtime_admitted": false
+}

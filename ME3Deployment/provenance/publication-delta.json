@@ -1,0 +1,283 @@
+{
+  "status": "SANITIZED_PUBLICATION_REVIEW_COPY_NOT_EXECUTED",
+  "measured_source_revision": "03d7a144917edb920949c1ebaca116e277cdb55ae5c2589018334f14d522721b",
+  "archive_sha256": "9e41057d450bcedc39b89d9b1e19f88803de441182f2210babae2c2cd66acb23",
+  "changes": [
+    {
+      "path": ".env.example",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "f7b413aec45b1a33d638c2b911c396e234715b130f3a5ed6ed78e047c8727528",
+      "publication_sha256": "41b6c7e130fb1a9f98ef92b159be0108dd095784c6339f49993e3c74a82366c8",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "F6-MANIFEST.json",
+      "action": "omitted",
+      "measured_sha256": "02e54d87992862d6edb14a74bb3ace9f877e557019e43beed52792bf0c7d45af",
+      "reason": "Private capture provenance replaced by public scoped identity summary."
+    },
+    {
+      "path": "evidence/assistant/candidate-source.json",
+      "action": "omitted",
+      "measured_sha256": "482048fffd71e7177deabbe85221aedefad3ed67f1193890e5f86c7a12e770f5",
+      "reason": "Operator history/source authority omitted; no historical authority adopted."
+    },
+    {
+      "path": "evidence/governance/onit-candidate-20261026.json",
+      "action": "omitted",
+      "measured_sha256": "c13af1252e22a86d0941713da9307458ccf87a3eb8028d01bbd905385ddfe65b",
+      "reason": "Original owner direction/governance omitted; operator must separately review authority."
+    },
+    {
+      "path": "me3_assistant/operating.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "2818c9f70cdc9b8afed6bcbc506a25ce84f450733ead335b9d859d99fd49a628",
+      "publication_sha256": "d5d282213c1d88c29cd69e34daa2ac2e57e2eed27dac487bc1e7487613721de6",
+      "reasons": [
+        "Private phone literal replaced by reserved example contact; no real recipient authority.",
+        "Qualification contact label replaced by operator placeholder."
+      ]
+    },
+    {
+      "path": "me3_google_calendar/action.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "a735ee0e26e4c77f9577253b21978f89114d47a2f915cff82a5137a96928c60d",
+      "publication_sha256": "4bf17bf9e0c514449675b9caad3841bd36b6d5375015d549ae9ebf9f3264d7eb",
+      "reasons": [
+        "Operator email literal replaced by non-deliverable example."
+      ]
+    },
+    {
+      "path": "me3_google_calendar/auth.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "1f12735eab452d51354bdbcb3b8a6f89d7b1bb6ec05d2d9ec3c11bde2805d7da",
+      "publication_sha256": "4de8042d92d55bf35928db0c627c8617b62a40017f6d27ba2e86a86c636fcc7f",
+      "reasons": [
+        "Operator email literal replaced by non-deliverable example."
+      ]
+    },
+    {
+      "path": "me3_google_calendar/budget.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "c0ef9a23242b19d9170690b71f419814609f4eb8a884e5a54f4d11413193f4b4",
+      "publication_sha256": "f462fe3aa2ffb577ae69f6099b9f5483a359d774054f2a2e983c18b486fc60fd",
+      "reasons": [
+        "Operator email literal replaced by non-deliverable example."
+      ]
+    },
+    {
+      "path": "me3_google_calendar/domain.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "0dabc5096fca457b9841f50b6975d5db88ab4962307b93e605e7cb7d60ecf5fa",
+      "publication_sha256": "40fa92f0f9896e5c4570d2939eb1425b7fd90d4f345e5ff9dcbe1ec9a563533e",
+      "reasons": [
+        "Operator email literal replaced by non-deliverable example."
+      ]
+    },
+    {
+      "path": "me3_whatsapp/call_budget.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "04dad6b01da59cddadae5094dc9d9fe881ca9e9a5ac096a7b3a48e1db3985f24",
+      "publication_sha256": "02e44cfd0548fb2d3bee4c0801c6b77be4c0ad462f0ca776e86f4e647de270ab",
+      "reasons": [
+        "Private phone literal replaced by reserved example contact; no real recipient authority.",
+        "Qualification contact label replaced by operator placeholder."
+      ]
+    },
+    {
+      "path": "me3_whatsapp/call_service.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "2b487416f8463c3261c2d69f615d2f6d6e5dbdd38cf0962e4d7ed504f5d993a5",
+      "publication_sha256": "745dfef0b08dbe492999a4f12e9fb8e0cdb79cd651eff16e8caf075c96a2e447",
+      "reasons": [
+        "Private phone literal replaced by reserved example contact; no real recipient authority.",
+        "Qualification contact label replaced by operator placeholder."
+      ]
+    },
+    {
+      "path": "scripts/probe_pi.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "f2ee27014b60db3acfff29840af09b5a215ff70fd9e6f1ed3c0ec9de23cd3e7d",
+      "publication_sha256": "8173f56a81cdbd0863be4e537370b203cf1d80e0438a2330babdc83a417913bc",
+      "reasons": [
+        "Operator email literal replaced by non-deliverable example."
+      ]
+    },
+    {
+      "path": "tests/overlap_fixture257.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "872d7b8394a03c3fe8168ef2114e3cffa56a9b1ed2e2bb4bbac67c10de9f003a",
+      "publication_sha256": "a8a43a27b9b5492e2a94e41872da0053e215754f981eea0e16784c61e12111ef",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/run_productivity_tests.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "9023326b6e118a9b81ab12d1396fd1a7f8d5b713cc2d85803309a01d41511daf",
+      "publication_sha256": "e9a9a79180569ef87c6936d1ae73105af49ff64f74e7af75356d78b721850601",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_f1_presentation243.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "0103bf46df62787c300d202633c8e84c00ac3c2112c2037ff3e78e8ed242297a",
+      "publication_sha256": "133ff8fa6c5d8da9f8ce3da64ec945fa2ad2f5558992e94bf19b21f066a37913",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_farewell252.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "1403095ae2bd64c72ba88a19eb83d5304ca150d040a7a893c098764963538616",
+      "publication_sha256": "43a6a74ed43f40fc494e21dc0efff3094be5ad1fa28b26b859e91a73f64afe55",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_onit_native_loop196.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "f6eb1eb39a807cec5898fdea6a0abf11094ac53c2d0eec05aefcb72a65ce7a55",
+      "publication_sha256": "6819ea5e7a54cd15565c388628f62245d9cc4076a5b97621c56160d1e29ac223",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_openai_host215.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "b50102099c5f90553b004fedabe9524d550b0193dc25a8ac393b08be583cb1a9",
+      "publication_sha256": "334d087dd40615b3c8b01d60f525ec3c685762d419bc24ef9f350b7d3ef9e9d4",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_overlap_settlement257.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "689a982281126dac283a7002f109e5eb8860f11bd3c9829ebda6aee96c599d71",
+      "publication_sha256": "3fbfb5863ac2b366400c7a76a91ef02acee9690793b0d4ab2b28d6d880a08371",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_pause_cues253.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "725be1227b1c17fad50eee6c99214b8c167d8511bb031735262a7991ccb8b91f",
+      "publication_sha256": "fd3bbaf452c9009e3bc75286eb4b75743db7b2d89878073d6d68a62141aab275",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_speech_phrasing243.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "5cb105d63b45cb2191cd06807ee49986bb4544e1d44cd29ab2e138c5565416c5",
+      "publication_sha256": "df998a3ef35dd545da3fa34573f337ef8bf444d9b6bf9008d80e24a41dd9adb1",
+      "reasons": [
+        "Operator-specific path/name replaced by example.",
+        "Private phone literal replaced by reserved example contact; no real recipient authority."
+      ]
+    },
+    {
+      "path": "tests/test_workspace_runtime_integration.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "e1f0e280166b6f8108c239c12855363cb72cb20efff3af3e635e033922172ae2",
+      "publication_sha256": "32365e1ce3d0b365257d72993a201f66fa8e2c6c84644d63b5b20cedf93bbce2",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_workspace_targets194.py",
+      "action": "sanitized_publication_copy",
+      "measured_sha256": "c1538cdd518a754a086db8655c2a9f2434574e8ca3326b2122a8469018758235",
+      "publication_sha256": "e2da8ff88e7bba8761bf770828f784d0933139f373689e283a8878a49a46afbe",
+      "reasons": [
+        "Operator-specific path/name replaced by example."
+      ]
+    },
+    {
+      "path": "tests/test_assistant_address_fallback.py",
+      "action": "publication_test_fixture_omitted",
+      "measured_sha256": "2ea86251ad4f1e8da23008f9dacfa7ba89a7888152f87865726a57b571e41a8c",
+      "reason": "Contains a publicly bundled disposable localhost TLS private-key fixture. Not an owner credential; omitted from publication staging to avoid distributing any private-key material. Original immutable archive retains it."
+    },
+    {
+      "path": "me3_assistant/operating.py",
+      "action": "publication_contact_label_sanitization",
+      "previous_publication_sha256": "d5d282213c1d88c29cd69e34daa2ac2e57e2eed27dac487bc1e7487613721de6",
+      "publication_sha256": "6ee77081c0831dc536104c5710a25e3eadf8df6ddfebd79f9ac558577daa81c4",
+      "reason": "Residual real qualification-contact label/comment replaced by consistent generic placeholders; measured runtime unchanged, public copy not admitted."
+    },
+    {
+      "path": "me3_assistant/registry.py",
+      "action": "publication_contact_label_sanitization",
+      "previous_publication_sha256": "e458676bc1777596a52a72ea1a9d8e666cd893f7939307050658bbc2a92af2d9",
+      "publication_sha256": "b35dcee3f3371f6ec3c6b40b532b4648475401a2e564b17759503baad371d62d",
+      "reason": "Residual real qualification-contact label/comment replaced by consistent generic placeholders; measured runtime unchanged, public copy not admitted."
+    },
+    {
+      "path": "me3_whatsapp/call_service.py",
+      "action": "publication_contact_label_sanitization",
+      "previous_publication_sha256": "745dfef0b08dbe492999a4f12e9fb8e0cdb79cd651eff16e8caf075c96a2e447",
+      "publication_sha256": "46fa69c6c5eb99b108fa61906d25696d1143fde8ff339338b091a7d4a2712248",
+      "reason": "Residual real qualification-contact label/comment replaced by consistent generic placeholders; measured runtime unchanged, public copy not admitted."
+    },
+    {
+      "path": "me3_whatsapp/recipients.py",
+      "action": "publication_contact_label_sanitization",
+      "previous_publication_sha256": "8f6dfeeae6240fb4eae6e9cbac4c3bc490de42ff8266ad57153ad44c450b953f",
+      "publication_sha256": "fbac6613f8536b0a4d4eee6370c59ae270b2f5625f6917af8fc6fceb9ef45b52",
+      "reason": "Residual real qualification-contact label/comment replaced by consistent generic placeholders; measured runtime unchanged, public copy not admitted."
+    },
+    {
+      "path": "me3_whatsapp/server.py",
+      "action": "publication_contact_label_sanitization",
+      "previous_publication_sha256": "e8281ae9b75acb8e854027a4b51d4b6b57c561cac38804ad85bc379c987b54a8",
+      "publication_sha256": "c941141603789958709edeb98c20e837401c7cac505b1f6f354d2fb2d7af8e15",
+      "reason": "Residual real qualification-contact label/comment replaced by consistent generic placeholders; measured runtime unchanged, public copy not admitted."
+    },
+    {
+      "path": "tests/test_speech_phrasing243.py",
+      "action": "publication_contact_label_sanitization",
+      "previous_publication_sha256": "df998a3ef35dd545da3fa34573f337ef8bf444d9b6bf9008d80e24a41dd9adb1",
+      "publication_sha256": "aee9044f7751af331e8d5919b4db512a15a845b173f81d1a78e7eb2a136df0af",
+      "reason": "Residual real qualification-contact label/comment replaced by consistent generic placeholders; measured runtime unchanged, public copy not admitted."
+    },
+    {
+      "path": "tests/fixtures/openai215-tools.json",
+      "action": "publication_contact_label_sanitization",
+      "previous_publication_sha256": "9dc843fe2548681e5c78748d91e5ff99e0e80cf178d2f2c19ca71a5a9921e7cf",
+      "publication_sha256": "16bda840d246b24c9fd87dee6e6bf7f30b9b09d8bc756ea142c50019ff8708b5",
+      "reason": "Residual real qualification-contact label/comment replaced by consistent generic placeholders; measured runtime unchanged, public copy not admitted."
+    },
+    {
+      "path": ".gitignore",
+      "action": "publication_private_file_exclusion_rules",
+      "measured_sha256": "6d00a3ddab1bcabc3736bee111fc760eeb2ead1313c1717b461b30da06d6e9e1",
+      "publication_sha256": "03affa6293d0a430ef81c312a851ceaccc9d3e5b3aa1bb81427295d23db7c0aa",
+      "reason": "Publication staging uses explicit local secret/runtime/model/account exclusions. File was already sanitized; this entry corrects the recorded hash only."
+    }
+  ],
+  "private_prerequisites_not_in_original_archive": [
+    "config/operating_policy.json",
+    "evidence/governance/onit-full-capability-20261030.json"
+  ],
+  "original_private_archive_unchanged": true,
+  "production_source_unchanged": true,
+  "guards_not_bypassed": true,
+  "operator_authority_not_generated": true,
+  "publication_copy_runtime_tested": false,
+  "git_initialized": false,
+  "committed": false,
+  "pushed": false
+}
