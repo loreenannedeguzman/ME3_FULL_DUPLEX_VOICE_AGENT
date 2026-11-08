@@ -3612,8 +3612,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3547,
-      "sha256": "2ddb29ddc70ca941b069020c191f3a98f57ed5981b4f0b15da9f3bfb084875b8"
+      "bytes": 13073,
+      "sha256": "175ca65055ed56d38ccff938ec0f66d5bff73e4ea1369d24d074e78da81ba3d2"
     },
     {
       "path": "REFERENCES/AGENTS.md",
@@ -3783,7 +3783,7 @@
     "PRESENTATION_GUIDE.md"
   ],
   "sensitive_originals_withheld": 4,
-  "local_links_checked": 159,
+  "local_links_checked": 160,
   "broken_local_links": [],
   "deployment_and_benchmark_code_unchanged": true,
   "runtime_changes": 0,
@@ -3814,6 +3814,18 @@
       "reason": "Removed stale submission-workflow notices; historical extract edits are disclosed in reference manifests.",
       "runtime_changes": 0,
       "benchmark_results_changed": false
+    },
+    {
+      "topic": "Repository README expanded into the visible ME3 project summary",
+      "date_manila": "2026-11-08",
+      "source": "Existing two-page presentation summary and published product/benchmark reports",
+      "changed": [
+        "README.md"
+      ],
+      "runtime_changes": 0,
+      "benchmark_results_changed": false,
+      "presentation_PDFs_changed": false,
+      "paused_GitHub_publisher_candidate_changed": false
     }
   ],
   "owner_layout_revision": {
